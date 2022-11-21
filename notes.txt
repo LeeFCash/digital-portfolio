@@ -1,1 +1,3 @@
-(video (learning git and github ) 501 on do or see)
+https://leefcash.github.io/terminal/
+
+above is link to the website 
