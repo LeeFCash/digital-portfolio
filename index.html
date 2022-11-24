@@ -5,7 +5,7 @@
   <style>
 #userInfo {
 color: yellow;
-
+margin-top: -8px;
 }#terminalSearch {
 background-color: black;
 color: white;
@@ -71,12 +71,14 @@ width: 4vw;
 position: absolute;
 top: 0px;
 left: 0px;
+}#info {
+margin-top: -8px;
 }
   </style>
  </head>
  <body>
   <div id="terminal">
-    <p>
+    <p id="info">
     to get info on what to type in the terminal and what command do what type help in the terminal and if you want to see my resume click here on the word here.
     </p>
    <span id="userInfo">
@@ -94,6 +96,11 @@ if you have suggestions please tell the creator<br>
 	<p id="aboutCreater">
 	My name is Lee Cash. I am a self taught programmer/coder, who is 18 years old. If you want to contact me, my gmail is: leecash133@gmail.com.  This project/resume was created with html javascript and  css.<br>
 	</p>
+  </div>
+  <div id="resume">
+    <p>
+      test
+    </p>
   </div>
   <div id="pcALL">
    <IMG src="home.png" id="home1" alt="error"/>
@@ -134,6 +141,10 @@ var chromeSearch = document.getElementById('chromeSearch');
 var closeMain = document.getElementById('closeMain');
 // getting home1
 var home1 = document.getElementById('home1');
+// getting info
+var info = document.getElementById('info');
+// getting resume
+var resume = document.getElementById('resume');
 // getting terminal commands to work
  terminalSearch.addEventListener('input', function(){
   localStorage.terminalSearch = terminalSearch.value;
@@ -154,6 +165,11 @@ terminal.appendChild(aboutCreater);
 } else {
 
 }
+})
+// open resume
+resume.addEventListener('click', function(){
+  terminal.remove();
+  document.body.appendChild(resume);
 })
 //open chrome
 chrome.addEventListener('click', function(){
@@ -178,6 +194,7 @@ closeMain.addEventListener('click', function(){
 main.remove();
 })
  // keep at bottem
+ resume.remove();
  main.remove();
  pcALL.remove();
  comendHelp.remove();
