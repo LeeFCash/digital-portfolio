@@ -68,5 +68,8 @@
     left: 0px;
     }#info {
     margin-top: -8px;
+    }#resume {
+    display: grid;
+    grid-template-columns: 30vw 70vw;
     }
     
