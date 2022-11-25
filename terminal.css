@@ -69,6 +69,9 @@
     }#info {
     margin-top: -8px;
     }#resume {
+    position: relative;
+    left: 0px;
+    top: 0px;
     display: grid;
     grid-template-columns: 30vw 70vw;
     margin-top: -8px;
