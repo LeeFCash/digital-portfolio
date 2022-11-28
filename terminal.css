@@ -73,7 +73,7 @@
     left: 0px;
     top: 0px;
     display: grid;
-    grid-template-columns: 10vw 90vw;
+    grid-template-columns: 20vw 80vw;
     margin-top: -8px;
     margin-left: -8px;
     }#resume-left {
@@ -82,7 +82,7 @@ color: black;
     background-color: blue;
     width: 100%;
     height: auto;
-    font-size: 50%;
+    font-size: 4vw;
     }#terminal-infoDiv {
     display: grid;
     grid-template-columns: 10vw 3vw;
@@ -93,5 +93,7 @@ color: black;
     height: 5vh;
     }#terminal-infoHelp {
     color: white;
+    }#resume-left-userInfoSmall {
+    font-size: 2vw;
     }
     
