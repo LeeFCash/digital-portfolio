@@ -67,7 +67,6 @@
     top: 0px;
     left: 0px;
     }#info1 {
-    margin-top: -8px;
     font-size: 1vw;
     }#resume {
     position: relative;
@@ -92,5 +91,7 @@ color: black;
     border-radius: 25px;
     width: 10vw;
     height: 5vh;
+    }#terminal-infoHelp {
+    color: white;
     }
     
