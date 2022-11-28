@@ -67,7 +67,7 @@
     top: 0px;
     left: 0px;
     }#info1 {
-    margin-top: -4px;
+    margin-top: -8px;
     font-size: 1vw;
     }#resume {
     position: relative;
@@ -86,11 +86,11 @@ color: black;
     font-size: 50%;
     }#terminal-infoDiv {
     display: grid;
-    grid-template-columns: 10vw 5vw;
+    grid-template-columns: 10vw 3vw;
     }#info {
     margin-left: 8px;
     border-radius: 25px;
     width: 10vw;
-    height: 2vh;
+    height: 5vh;
     }
     
