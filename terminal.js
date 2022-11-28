@@ -1,3 +1,5 @@
+// tell the user about help command
+alert('for a list of commands type help');
 // call terminal div
 var terminal = document.getElementById('terminal');
 // prompt for user name
