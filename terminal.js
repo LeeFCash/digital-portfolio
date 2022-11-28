@@ -29,6 +29,8 @@ var home1 = document.getElementById('home1');
 var info = document.getElementById('info');
 // getting resume
 var resume = document.getElementById('resume');
+// getting terminal-infoHelp
+var terminalInfoHelp = document.getElementById('terminal-infoHelp');
 // getting terminal commands to work
  terminalSearch.addEventListener('input', function(){
   localStorage.terminalSearch = terminalSearch.value;
@@ -41,6 +43,7 @@ var resume = document.getElementById('resume');
  comendHelp.remove();
  listAll.remove();
  aboutCreater.remove();
+ terminalInfoHelp.remove();
   } else if(localStorage.terminalSearch == './pcALL.html') {
     document.body.appendChild(pcALL);
     terminal.remove();
