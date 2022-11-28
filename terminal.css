@@ -66,7 +66,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    }#info {
+    }#info1 {
     margin-top: -4px;
     }#resume {
     position: relative;
@@ -85,5 +85,9 @@ color: black;
     font-size: 50%;
     }#terminal-infoDiv {
     display: grid;
+    grid-template-columns: 2vw 2vw;
+    }#info {
+    margin-left: 8px;
+    border-radius: 25px;
     }
     
