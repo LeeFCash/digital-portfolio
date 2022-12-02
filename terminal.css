@@ -82,6 +82,7 @@ height: 100vh;
 background-color: lightgray;
     }#resume-left-userInfo {
     margin-top: -8px;
+    margin-bottom: -8px;
     background-color: blue;
     width: 100%;
     height: auto;
@@ -98,5 +99,10 @@ background-color: lightgray;
     color: white;
     }#resume-left-userInfoSmall {
     font-size: 2vw;
+    }#resume-left-skillsTop {
+    margin-top: -8px;
+    height: auto;
+    width: auto;
+    font-size: 1vw;
     }
     

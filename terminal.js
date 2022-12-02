@@ -1,5 +1,5 @@
 // warning to user 
-alert('! WARNING !this website might not work on a phone');
+alert('! WARNING ! this website might not work on a phone');
 // call terminal div
 var terminal = document.getElementById('terminal');
 // prompt for user name
