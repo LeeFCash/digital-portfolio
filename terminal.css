@@ -21,9 +21,9 @@
     width: 100vw;
     height: auto;
     }#bar {
-    position: relative;
+    position: fixed;
     left: 0px;
-    top: 95%;
+    bottom: 0%;
     margin-top: -8px;
     margin-left: -8px;
     width: 100%;
@@ -61,11 +61,12 @@
     position: relative;
     top: 0px;
     left:78vw;
-    }#home1 {
+    }#home {
     width: 4vw;
-    position: absolute;
+    position: relative;
     top: 0px;
     left: 0px;
+    border-radius: 50vw;
     }#info1 {
     font-size: 1vw;
     }#resume {

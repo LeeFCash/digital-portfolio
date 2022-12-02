@@ -25,8 +25,8 @@ var aboutCreater = document.getElementById('aboutCreater');
 var chromeSearch = document.getElementById('chromeSearch');
 // getting closeMain
 var closeMain = document.getElementById('closeMain');
-// getting home1
-var home1 = document.getElementById('home1');
+// getting home
+var home1 = document.getElementById('home');
 // getting info
 var info = document.getElementById('info');
 // getting resume
@@ -65,7 +65,7 @@ chrome.addEventListener('click', function(){
 pcALL.appendChild(main);
 })
 // return to terminal
-home1.addEventListener('click', function(){
+home.addEventListener('click', function(){
 pcALL.remove();
 document.body.appendChild(terminal);
 })
