@@ -38,6 +38,8 @@ var terminalSearch = document.getElementById('terminalSearch');
  var terminalInfoHelp = document.getElementById('terminal-infoHelp');
  // getting resume-homeBotton
  var resumeHomeBotton = document.getElementById('resume-homeBotton');
+ // getting pcALL-youtube
+ var pcALLYoutube = document.getElementById('pcALL-youtube');
 // getting terminal commands to work
  terminalSearch.addEventListener('input', function(){
   localStorage.terminalSearch = terminalSearch.value;
@@ -99,6 +101,7 @@ main.remove();
  listAll.remove();
  aboutCreater.remove();
  home1.remove();
+ pcALLYoutube.remove();
 // terminal refresh 
  
  setTimeout(terminalDown,60000,'');
