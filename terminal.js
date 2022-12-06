@@ -83,8 +83,9 @@ document.body.appendChild(terminal);
 // search in chrome working 
 chromeSearch.addEventListener('input', function(){
 localStorage.chromeSearch = chromeSearch.value;
-if(localStorage.chromeSearch == 'youtube'){
-alert('test');
+if(localStorage.chromeSearch == 'youtube.com'){
+document.body.appendChild(pcALLYoutube);
+main.remove();
 } else {
 
 }
