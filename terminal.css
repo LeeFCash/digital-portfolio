@@ -4,7 +4,7 @@
     }#terminalSearch {
     background-color: black;
     color: white;
-    width: 10vw;
+    width: 13vw;
     height: 2vh;
     }#terminal {
     width: 100vw;
@@ -79,9 +79,9 @@
     margin-top: -8px;
     margin-left: -8px;
     }#resume-left {
-color: black;
-height: 100vh;
-background-color: lightgray;
+    color: black;
+    height: 100vh;
+    background-color: lightgray;
     }#resume-left-userInfo {
     margin-top: -8px;
     margin-bottom: -8px;
@@ -116,5 +116,13 @@ background-color: lightgray;
     }#pcALL-youtube {
     height: auto;
     height: auto;
+    }#shortcuts {
+ width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: black;
+    color: white;
     }
     

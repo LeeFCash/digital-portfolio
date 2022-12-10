@@ -40,6 +40,10 @@ var terminalSearch = document.getElementById('terminalSearch');
  var resumeHomeBotton = document.getElementById('resume-homeBotton');
  // getting pcALL-youtube
  var pcALLYoutube = document.getElementById('pcALL-youtube');
+ // getting shortcuts
+ var shortcuts = document.getElementById('shortcuts');
+ // getting shortcuts-pcall 
+ var shortcutsPcall = document.getElementById('shortcuts-pcall');
 // getting terminal commands to work
  terminalSearch.addEventListener('input', function(){
   localStorage.terminalSearch = terminalSearch.value;
@@ -59,9 +63,18 @@ var terminalSearch = document.getElementById('terminalSearch');
     bar.appendChild(home1);
 } else if(localStorage.terminalSearch == 'aboutCreater'){
 terminal.appendChild(aboutCreater);
+} else if(localStorage.terminalSearch == 'shortcuts') {
+terminal.remove();
+document.body.appendChild(shortcuts);
 } else {
 
 }
+})
+// shortcuts command stuff 
+shortcutsPcall.addEventListener('click', function() {
+  shortcuts.remove();
+  document.body.appendChild(pcALL);
+  bar.appendChild(home1);
 })
 // open resume
 info.addEventListener('click', function(){
@@ -103,6 +116,7 @@ main.remove();
  aboutCreater.remove();
  home1.remove();
  pcALLYoutube.remove();
+ shortcuts.remove();
 // terminal refresh 
  
  setTimeout(terminalDown,60000,'');
