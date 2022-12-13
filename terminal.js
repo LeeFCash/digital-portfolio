@@ -91,6 +91,7 @@ home1.addEventListener('click', function(){
 home1.remove();
 pcALL.remove();
 resume.remove();
+pcALLYoutube.remove();
 document.body.appendChild(terminal);
 })
 // search in chrome working 
