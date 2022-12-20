@@ -44,6 +44,8 @@ var terminalSearch = document.getElementById('terminalSearch');
  var shortcuts = document.getElementById('shortcuts');
  // getting shortcuts-pcall 
  var shortcutsPcall = document.getElementById('shortcuts-pcall');
+ // getting chromeSearch-button
+ var chromeSearchButton = document.getElementById('chromeSearch-button');
 // getting terminal commands to work
  terminalSearch.addEventListener('input', function(){
   localStorage.terminalSearch = terminalSearch.value;
@@ -95,13 +97,13 @@ pcALLYoutube.remove();
 document.body.appendChild(terminal);
 })
 // search in chrome working 
-chromeSearch.addEventListener('input', function(){
+chromeSearchButton.addEventListener('click', function(){
 localStorage.chromeSearch = chromeSearch.value;
 if(localStorage.chromeSearch == 'youtube.com'){
 document.body.appendChild(pcALLYoutube);
 main.remove();
 } else {
-
+alert('can not find search maybe try youtube.com all lower case.');
 }
 })
 // close Main
