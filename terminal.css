@@ -131,11 +131,17 @@
     position: absolute;
     left: 40vw;
     top: 0vh;
-    border-radius: 25vw;
+    border-bottom-left-radius: 25vw;
+    border-top-left-radius: 25vw;
     }#pcALL-youtube-top-button {
     position: absolute;
-    left: 55%;
+    left: 55vw;
     top: 0vh;
     border-radius: 25vw;
+    }#chromeSearch-button {
+    position: relative;
+    top: 3vh;
+    left: 5vw;
+    width: 3vw;
     }
     
