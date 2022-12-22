@@ -116,9 +116,12 @@
     width: auto;
     height: auto;
     }#pcALL-youtube {
+    display:grid;
+    grid-template-columns: 10vw 90vw;
     height: auto;
     width: 500vw;
     background-color: black;
+    color: white;
     }#shortcuts {
     width: 100vw;
     height: 100vh;
@@ -150,5 +153,8 @@
     border-top-right-radius: 25vw;
     }#pcALL-youtube-top-container-search {
     display: flex;
+    }#pcALL-youtube-side {
+    margin-top: -8px;
+    margin-bottom: -8px;
     }
     
