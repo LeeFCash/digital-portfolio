@@ -1,5 +1,5 @@
 # project-hub-resume
-for me and maybe(others)
+for me and maybe(others)(not updated)
 This is my project hub that also has my resume in it.
 Links - 
 youtube channel - 
