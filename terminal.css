@@ -1,4 +1,4 @@
-#resume {
+    #resume {
     position: relative;
     left: 0px;
     top: 0px;
@@ -6,29 +6,44 @@
     grid-template-columns: 20vw 80vw;
     margin-top: -8px;
     margin-left: -8px;
-    }#resume-left {
+    }
+    
+    #resume-left {
     color: black;
     height: 100vh;
     background-color: lightgray;
-    }#resume-left-userInfo {
+    }
+    
+    #resume-left-userInfo {
     margin-top: -8px;
     margin-bottom: -8px;
     background-color: blue;
     width: 100%;
     height: auto;
     font-size: 3vw;
-    }#resume-left-userInfoSmall {
+    }
+    
+    #resume-left-userInfoSmall {
     font-size: 2vw;
-    }#resume-left-skillsTop {
+    }
+    
+    #resume-left-skillsTop {
     margin-top: -8px;
     height: auto;
     width: auto;
     font-size: 1vw;
-    }#resume-homeBotton {
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    width: auto;
-    height: auto;
     }
+
+    #resume-left-skillslist {
+    margin-left: 5px;
+    }
+
+    #resume-left-froofOfSkills {
+    border-top-style: solid;
+    border-width: 1px;
+    }
+
+    #resume-left-froofOfSkills-inner {
+        margin-left: 5px;
+        }
     
