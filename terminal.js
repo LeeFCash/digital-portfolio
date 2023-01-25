@@ -5,5 +5,9 @@
  // getting resume-homeBotton
  var resumeHomeBotton = document.getElementById('resume-homeBotton');
 // keep at bottem
- //resume.remove();
- aboutCreater.remove();
+ resume.remove();
+ setTimeout(into, 50000);
+ function into() {
+    aboutCreater.remove();
+    document.body.appendChild(resume);
+ }

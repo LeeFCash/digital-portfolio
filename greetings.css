@@ -1,0 +1,32 @@
+@keyframes into {
+    from {opacity: 1.5;}
+    to {opacity: 0.0;}
+}
+
+#aboutCreater {
+    animation-name: into;
+    animation-iteration-count: 1;
+    animation-duration: 30s;
+    animation-delay: 20s;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+}
+
+#aboutCreater-text {
+    margin-top: -8px;
+    margin-left: 25vw;
+    margin-bottom: -8px;
+    margin-right: -8px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 50vw;
+}
