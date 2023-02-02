@@ -2,31 +2,34 @@
     from {opacity: 0.0;}
     to {opacity: 1.5;}
 }
-    
+    body {
+        background-color: black;
+        color: white;
+    }
     #resume {
-    animation-name: into;
+    /*animation-name: into;
     animation-iteration-count: 1;
     animation-duration: 30s;
-    animation-delay: 0s;
-    position: relative;
+    animation-delay: 0s;*/
+    position: absolute;
     left: 0px;
     top: 0px;
     display: grid;
     grid-template-columns: 20vw 80vw;
-    margin-top: -8px;
-    margin-left: -8px;
     }
     
     #resume-left {
-    color: black;
+    color: white;
     height: 100vh;
-    background-color: lightgray;
+    background-color: black;
+    border-right-style: solid;
+    border-right-width: 1px;
     }
     
     #resume-left-userInfo {
     margin-top: -8px;
     margin-bottom: -8px;
-    background-color: blue;
+    background-color: black;
     width: 100%;
     height: auto;
     font-size: 3vw;
@@ -56,4 +59,7 @@
     margin-left: 5px;
     }
     
-    
+    #resume-right-objectiveBody {
+    margin-left: 2px;
+    color: blue;
+    }

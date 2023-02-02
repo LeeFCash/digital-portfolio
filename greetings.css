@@ -8,6 +8,7 @@
     animation-iteration-count: 1;
     animation-duration: 30s;
     animation-delay: 20s;
+    animation: forwards;
     position: absolute;
     left: 0;
     top: 0;
