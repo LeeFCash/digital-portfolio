@@ -1,22 +1,28 @@
-@keyframes into {
-    from {opacity: 0.0;}
-    to {opacity: 1.5;}
+@keyframes resumee {
+    from {
+        opacity: 0.0;
+    }
+    to {
+        opacity: 1.5;
+    
+    }
 }
     body {
         background-color: black;
         color: white;
     }
     #resume {
-    /*animation-name: into;
+    /*animation-name: resumee;
     animation-iteration-count: 1;
-    animation-duration: 30s;
-    animation-delay: 0s;*/
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation: forwards;*/
     position: absolute;
     left: 0px;
     top: 0px;
     display: grid;
     grid-template-columns: 20vw 80vw;
-    }
+}
     
     #resume-left {
     color: white;
@@ -60,6 +66,21 @@
     }
     
     #resume-right-objective {
+    text-align: center;
+    color: white;
+    }
+
+    #resume-right-objectiveBody {
+    text-align: center;
+    color: white;
+    }
+
+    #resume-right-objective2 {
+    text-align: center;
+    color: white;
+    }
+
+    #resume-right-objectiveBody2 {
     text-align: center;
     color: white;
     }
