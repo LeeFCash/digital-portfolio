@@ -1,21 +1,36 @@
 @keyframes into {
-    from {opacity: 1.5;}
-    to {opacity: 0.0;}
+    0% {
+        opacity: 1.5;
+        position: absolute;
+        left: 0px;
+        top: 0px;    }
+
+    99% {
+        opacity: 1.5;
+        position: absolute;
+        left: 0px;
+        top: 0px;    }
+
+    100% {
+        opacity: 0.0;
+        /*position: absolute;
+        left: 1000000000000000000000000000000000000000000000000000000000000px;
+        top: 1000000000000000000000000000000000000000000000000000000000000px;*/    }
 }
 
 #aboutCreater {
-    animation-name: into;
+    /*animation-name: into;
     animation-iteration-count: 1;
     animation-duration: 30s;
-    animation-delay: 20s;
-    animation: forwards;
-    position: absolute;
+    animation-delay: 20s;*/
+    animation: into 60s ease-in forwards;
+    /*position: absolute;
     left: 0;
     top: 0;
     height: 100vh;
     width: 100vw;
     background-color: black;
-    display: flex;
+    display: flex;*/
 }
 
 #aboutCreater-text {

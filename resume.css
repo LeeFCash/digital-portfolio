@@ -1,23 +1,42 @@
 @import "greetings.css";
-@keyframes resumee {
-    from {
+@keyframes resume {
+    0% {
         opacity: 0.0;
-    }
-    to {
-        opacity: 1.5;
-    
+        position: absolute;
+        left: 1000000000000000000000000000000000000000000px;
+        top: 10000000000000000000000000000000000000000000px;    }
+    100% {
+        opacity: 0.0;
+        position: absolute;
+        left: 0px;
+        top: 0px;    
     }
 }
+
+@keyframes show {
+    0% {
+        opacity: 0.0;
+        position: absolute;
+        left: 0px;
+        top: 0px;    
+    }
+    100% {
+        opacity: 1.5;
+        position: absolute;
+        left: 0px;
+        top: 0px;    
+    }
+}
+
+
     body {
         background-color: black;
         color: white;
     }
+
     #resume {
-    /*animation-name: resumee;
-    animation-iteration-count: 1;
-    animation-duration: 10s;
-    animation-delay: 0s;
-    animation: forwards;*/
+    animation: resume 60s ease-in forwards 1;
+    /*animation: show 10s ease-in forwards 1 60s;*/
     position: absolute;
     left: 0px;
     top: 0px;

@@ -4,7 +4,7 @@
  var resume = document.getElementById('resume');
 // keep at bottem
  //resume.remove();
- aboutCreater.remove();
+ //aboutCreater.remove();
  /*setTimeout(into, 50000);
  function into() {
     aboutCreater.remove();
