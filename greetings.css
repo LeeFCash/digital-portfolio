@@ -50,3 +50,10 @@
     height: 100vh;
     width: 50vw;
 }
+
+#aboutCreater-animation-canvas {
+    background: white;
+    position: absolute;
+    top: 55vh;
+    left: 40vw;
+}
