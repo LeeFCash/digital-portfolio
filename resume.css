@@ -30,7 +30,7 @@
 
     #resume {
     /*animation: resume 60s ease-in forwards 1;*/
-    animation: show 60s ease-in forwards 1;
+    animation: show 30s ease-in forwards 1;
     position: absolute;
     left: 0px;
     top: 0px;

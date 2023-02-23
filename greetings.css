@@ -27,7 +27,7 @@
     animation-duration: 30s;
     animation-delay: 20s;*/
     /*animation: into 60s ease-in forwards;*/
-    animation: gone 60s ease-in forwards 1;
+    animation: gone 30s ease-in forwards 1;
     /*position: absolute;
     left: 0;
     top: 0;
@@ -51,7 +51,7 @@
     width: 50vw;
 }
 
-#aboutCreater-animation-canvas {
+#aboutCreater-animation-svg {
     background: white;
     position: absolute;
     top: 55vh;
