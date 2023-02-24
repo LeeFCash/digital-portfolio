@@ -21,6 +21,29 @@
     }
 }
 
+@keyframes shape1 {
+    0% {
+        fill: blue;
+    }
+    100% {
+        fill: blue;
+        transform: translateX(-100%);
+        height: 30%;
+    }
+}
+
+@keyframes shape2 {
+    0% {
+        fill: blue;
+    }
+    100% {
+        fill: blue;
+        transform: translateX(-100%);
+        transform: translateY(30%);
+        width: 20%;
+    }
+}
+
 #aboutCreater {
     /*animation-name: into;
     animation-iteration-count: 1;
@@ -52,8 +75,18 @@
 }
 
 #aboutCreater-animation-svg {
-    background: white;
+    background: black;
     position: absolute;
     top: 55vh;
-    left: 40vw;
+    left: 29vw;
+    height: 20vh;
+    width: 40vw;
+}
+
+#aboutCreater-animation-svg-shape1 {
+    animation: shape1 1s ease forwards;
+}
+
+#aboutCreater-animation-svg-shape2 {
+    animation: shape2 1s ease forwards;
 }
