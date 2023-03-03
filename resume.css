@@ -22,6 +22,21 @@
     }
 }
 
+@keyframes test {
+    0% {
+        /*opacity: 0.0;*/
+        color: blue;
+    }
+    100% {
+        /*opacity: 0.0;*/
+        color: green;
+    }
+}
+
+    #animationTest1 {
+        animation: test 60s ease-in-out forwards;
+    }
+
 
     body {
         background-color: black;
@@ -30,12 +45,14 @@
 
     #resume {
     /*animation: resume 60s ease-in forwards 1;*/
-    animation: show 30s ease-in forwards 1;
+    animation: show 20s ease-in forwards 1;
     position: absolute;
     left: 0px;
     top: 0px;
     display: grid;
-    grid-template-columns: 20vw 80vw;
+    /*grid-template-columns: 20vw 80vw;*/
+    /*grid-template-columns: auto auto;*/
+    grid-template-columns: auto 1fr;
 }
     
     #resume-left {
@@ -55,9 +72,17 @@
     font-size: 3vw;
     }
     
-    #resume-left-userInfoSmall {
-    font-size: 2vw;
+    #resume-left-userInfo-innerTop {
+    font-size: 110%;
     }
+
+    #resume-left-userInfo-innerMiddle {
+    font-size: 50%;
+    }    
+
+    #resume-left-userInfo-innerBottom {
+    font-size: 50%;
+    }    
     
     #resume-left-skillsTop {
     margin-top: -8px;
@@ -87,6 +112,8 @@
     #resume-right-objectiveBody {
     text-align: center;
     color: white;
+    /*test under
+    font-size: 1px;*/
     }
 
     #resume-right-objective2 {
@@ -97,4 +124,6 @@
     #resume-right-objectiveBody2 {
     text-align: center;
     color: white;
+    /*test under
+    font-size: 1px;*/
     }

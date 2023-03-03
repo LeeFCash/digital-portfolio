@@ -50,7 +50,7 @@
     animation-duration: 30s;
     animation-delay: 20s;*/
     /*animation: into 60s ease-in forwards;*/
-    animation: gone 30s ease-in forwards 1;
+    animation: gone 20s ease-in forwards 1;
     /*position: absolute;
     left: 0;
     top: 0;
