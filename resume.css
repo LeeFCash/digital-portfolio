@@ -73,22 +73,36 @@
     }
     
     #resume-left-userInfo-innerTop {
-    font-size: 110%;
+    border-bottom-style: solid;
+    border-width: 1px;
+    margin-bottom: -8px;
+    font-size: 116%;
+    /*font-size: auto;*/
     }
 
     #resume-left-userInfo-innerMiddle {
+    margin: -8px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
     font-size: 50%;
+    /*font-size: auto;*/
     }    
 
     #resume-left-userInfo-innerBottom {
+    margin: -8px;
+    margin-left: 8px;
     font-size: 50%;
+    /*font-size: auto;*/
     }    
     
     #resume-left-skillsTop {
-    margin-top: -8px;
+    /*margin-top: -8px;*/
+    border-bottom-style: solid;
     height: auto;
     width: auto;
     font-size: 1vw;
+    border-width: 1px;
     }
 
     #resume-left-skillslist {
