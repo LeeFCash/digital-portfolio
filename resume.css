@@ -94,8 +94,6 @@
     margin-left: 8px;
     font-size: 50%;
     /*font-size: auto;*/
-    border-bottom-style: solid;
-    border-width: 1px;
     }    
     
     /*#resume-left-skillsTop {
@@ -109,6 +107,9 @@
 
     #resume-left-skillslist {
     margin-left: 5px;
+    border-top-style: solid;
+    border-width: 1px;
+
     }
 
     #resume-left-froofOfSkills {
@@ -120,7 +121,7 @@
     margin-left: 5px;
     }
     
-    #resume-right-objective {
+    #resume-right-objectiveHead {
     text-align: center;
     color: white;
     }
@@ -132,14 +133,7 @@
     font-size: 1px;*/
     }
 
-    #resume-right-objective2 {
+    #resume-right-objectiveHead2 {
     text-align: center;
     color: white;
-    }
-
-    #resume-right-objectiveBody2 {
-    text-align: center;
-    color: white;
-    /*test under
-    font-size: 1px;*/
     }
