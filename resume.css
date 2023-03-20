@@ -43,8 +43,12 @@
         color: white;
     }
 
+    #show-animation {
+        animation: show 20s ease-in forwards 1;
+    }
+
     #resume {
-    /*animation: resume 60s ease-in forwards 1;*/
+    /*opacity:0.0;*/
     animation: show 20s ease-in forwards 1;
     position: absolute;
     left: 0px;

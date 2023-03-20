@@ -44,6 +44,10 @@
     }
 }
 
+#gone-animation {
+    animation: gone 20s ease-in forwards 1;
+}
+
 #aboutCreater {
     /*animation-name: into;
     animation-iteration-count: 1;
@@ -51,7 +55,10 @@
     animation-delay: 20s;*/
     /*animation: into 60s ease-in forwards;*/
     animation: gone 20s ease-in forwards 1;
-    /*position: absolute;
+    position: absolute;
+    left: 0px;
+    top: 0px;    
+/*position: absolute;
     left: 0;
     top: 0;
     height: 100vh;
@@ -72,6 +79,10 @@
     text-align: center;
     height: 100vh;
     width: 50vw;
+}
+
+#aboutCreater-toResume {
+    color:white;
 }
 
 #aboutCreater-animation-svg {
