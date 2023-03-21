@@ -49,40 +49,42 @@
 }
 
 #aboutCreater {
-    /*animation-name: into;
-    animation-iteration-count: 1;
-    animation-duration: 30s;
-    animation-delay: 20s;*/
-    /*animation: into 60s ease-in forwards;*/
-    animation: gone 20s ease-in forwards 1;
+    /*animation: gone 20s ease-in forwards 1;*/
     position: absolute;
     left: 0px;
     top: 0px;    
-/*position: absolute;
-    left: 0;
-    top: 0;
-    height: 100vh;
     width: 100vw;
-    background-color: black;
-    display: flex;*/
+    height: 100vh;
+    /*display: flex;
+    flex-basis: center;*/
 }
 
 #aboutCreater-text {
-    margin-top: -8px;
-    margin-left: 25vw;
+    margin-top: 8px;
+    margin-left: -8px;
     margin-bottom: -8px;
     margin-right: -8px;
     background-color: black;
     color: white;
     display: flex;
-    align-items: center;
-    text-align: center;
-    height: 100vh;
-    width: 50vw;
+    /*align-items: center;
+    text-align: center;*/
+    /*height: 100vh;*/
+    width: 50%;
+    position: relative;
+    top: 50%;
+    left: 25%;
+    height: auto;
+    /*width: auto;*/
 }
 
 #aboutCreater-toResume {
     color:white;
+    margin-top: 8px;
+    height: 1%;
+    position: relative;
+    top: 50%;
+    left: 40%;
 }
 
 #aboutCreater-animation-svg {
