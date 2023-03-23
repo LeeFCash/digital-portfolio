@@ -50,6 +50,7 @@
 
 #aboutCreater {
     /*animation: gone 20s ease-in forwards 1;*/
+    opacity: 0.0;
     position: absolute;
     left: 0px;
     top: 0px;    

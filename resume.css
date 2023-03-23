@@ -48,7 +48,7 @@
     }
 
     #resume {
-    opacity:0.0;
+    opacity:1.5;
     /*animation: show 20s ease-in forwards 1;*/
     position: absolute;
     left: 0px;
