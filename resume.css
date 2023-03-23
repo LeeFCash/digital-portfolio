@@ -43,12 +43,12 @@
         color: white;
     }
 
-    #show-animation {
+    /*#show-animation {
         animation: show 20s ease-in forwards 1;
-    }
+    }*/
 
     #resume {
-    opacity: 0.0;
+    opacity: 1.5;
     /*animation: show 20s ease-in forwards 1;*/
     position: absolute;
     left: 0px;
@@ -57,7 +57,9 @@
     /*grid-template-columns: 20vw 80vw;*/
     /*grid-template-columns: auto auto;*/
     grid-template-columns: auto 1fr;
-}
+    
+    
+    }
     
     #resume-left {
     color: white;
