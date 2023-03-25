@@ -28,8 +28,8 @@ body {
 #root-tabBar-tab1 {
     position: relative;
     bottom: 30%;
-    margin-top: -8px;
-    margin-bottom: -8px;
+    /*margin-top: -8px;
+    margin-bottom: -8px;*/
     padding: 0;
     width: var(--tab-width);
     height: var(--tab-height);
@@ -48,10 +48,10 @@ body {
     position: relative;
     bottom: 30%;
     padding: 0;
-    margin-top: -8px;
+    /*margin-top: -8px;
     margin-bottom: -8px;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 10%;*/
     width: var(--tab-width);
     height: var(--tab-height);
     font-size: var(--tab-fontSize);
@@ -69,8 +69,8 @@ body {
     position: relative;
     bottom: 30%;
     padding: 0;
-    margin-top: -8px;
-    margin-bottom: -8px;
+    /*margin-top: -8px;
+    margin-bottom: -8px;*/
     width: var(--tab-width);
     height: var(--tab-height);
     font-size: var(--tab-fontSize);
