@@ -1,3 +1,4 @@
+@import "animations.css";
 :root {
 --tab-border: 1px;
 --tab-height: auto;
@@ -75,4 +76,18 @@ body {
     text-underline-position: below;
     text-decoration-line: underline;
     text-decoration-color: white;
+}
+/* main content */
+#main-content {
+    color: white;
+}
+
+#main-content-aboutMeContent-img {
+    animation: IMGresize 10s ease-in-out forwards;
+    width: 10%;
+    height: 10%;
+}
+
+#main-content-aboutMeContent-text1 {
+    position: relative;
 }

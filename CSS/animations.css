@@ -1,0 +1,14 @@
+@keyframes IMGresize {
+    0% {
+        /*transform: scaleX(-1);*/
+        transform: translate(-20vw);
+    }
+
+    70% {
+        border-radius: 0%;
+    }
+
+    100% {
+        border-radius: 99%;
+    }
+}
