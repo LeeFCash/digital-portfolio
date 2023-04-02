@@ -20,17 +20,22 @@ body {
     position: relative;
     /*margin-top: -8px;
     margin-left: -8px;*/
+    margin: 8px;
     border-style: solid;
     border-color: white;
     border-width: var(--tab-border);
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    width: 100vw;
     height: auto;
 }
 
+
 .main-tabBar-list {
     display:flex;
+    width: 5vw;
+    position: relative;
+    left: 50%;
 }
 
 .main-tabBar-tab1 {
