@@ -110,3 +110,21 @@
         opacity: 1.5;
     }
 }
+
+@media all and (max-width: 616px) {
+    @keyframes tab3 {
+        0% {
+            left: -1vw;
+            opacity: 0.0;
+        }
+    
+        /*80% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            left: 18vw;
+            opacity: 1.5;
+        }
+    }
+    }
