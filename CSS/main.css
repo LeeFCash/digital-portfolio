@@ -49,6 +49,7 @@ body {
     }
     .main-tabBar-list {
         display:flex;
+        margin: -8px;
         width: 5vw;
         position: relative;  
         left: -15%;  
