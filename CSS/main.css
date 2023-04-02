@@ -9,14 +9,14 @@ body {
     background-color: black;
 }
 
-#main {
+.main {
     position: absolute;
     margin: -8px;
     width: 99.9%;
     height: 100%;
 }
 
-#main-tabBar {
+.main-tabBar {
     position: relative;
     /*margin-top: -8px;
     margin-left: -8px;*/
@@ -29,11 +29,11 @@ body {
     height: auto;
 }
 
-#main-tabBar-list {
+.main-tabBar-list {
     display:flex;
 }
 
-#main-tabBar-tab1 {
+.main-tabBar-tab1 {
     position: relative;
     left: -20vw;
     margin: -8px;
@@ -49,14 +49,17 @@ body {
     text-decoration-color: white;
 }
 
-#main-tabBar-tab2 {
+.main-tabBar-tab1-animation {
+    animation: tab1 2s ease-in-out forwards;
+}
+
+.main-tabBar-tab2 {
     position: relative;
     margin: -8px;
     width: var(--tab-width);
     height: var(--tab-height);
     font-size: var(--tab-fontSize);
-    background-color: black;
-    color: white;
+    color: black;
     border-color: white;
     border-width: 1vw;
     text-underline-position: below;
@@ -64,30 +67,76 @@ body {
     text-decoration-color: white;
 }
 
-#main-tabBar-tab3 {
+.main-tabBar-tab2-animation {
+    animation: tab2 2s ease-in-out forwards;
+}
+
+.main-tabBar-tab3 {
     position: relative;
     left: 20vw;
     margin: -8px;
     width: var(--tab-width);
     height: var(--tab-height);
     font-size: var(--tab-fontSize);
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-width: 1vw;
     text-underline-position: below;
     text-decoration-line: underline;
     text-decoration-color: white;
 }
-/* main content */
-#main-content {
+
+.main-tabBar-tab3-animation {
+    animation: tab3 2s ease-in-out forwards;
+}
+
+.main-tabBar-tab-select {
+    background-color: black;
     color: white;
 }
 
-#main-content-aboutMeContent-img {
-    animation: IMGresize 10s ease-in-out forwards;
-    width: 10%;
-    height: 10%;
+/* main content */
+.main-content {
+    color: white;
 }
 
-#main-content-aboutMeContent-text1 {
-    position: relative;
+.main-content-aboutMeContent-img1 {
+    position: absolute;
+    width: 10vw;
+    height: 20vh;
+}
+
+.main-content-aboutMeContent-img1-animation {
+    animation: IMGresize 10s ease-in-out forwards;
+}
+
+.main-content-aboutMeContent-text1 {
+    position: absolute;
+    top: 70vh;
+    left: 90vw;
+}
+
+.main-content-aboutMeContent-text1-animation {
+    animation: move1 10s ease-in-out forwards;
+}
+
+.main-content-aboutMeContent-text2 {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+}
+
+.main-content-aboutMeContent-text2-animation {
+    animation: move2 10s ease-in-out forwards;
+}
+
+.main-content-aboutMeContent-text3 {
+    position: absolute;
+    top: 95vh;
+    left: 20vw;
+}
+
+.main-content-aboutMeContent-text3-animation {
+    animation: move3 10s ease-in-out forwards;
 }

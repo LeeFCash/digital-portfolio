@@ -1,3 +1,4 @@
+/* for img in about me */
 @keyframes IMGresize {
     0% {
         /*transform: scaleX(-1);*/
@@ -10,5 +11,102 @@
 
     100% {
         border-radius: 99%;
+    }
+}
+/* word move in place */
+@keyframes move1 {
+    0% {
+        opacity: 0.0;
+    }
+
+    /*50% {
+        opacity: 1.5;
+    }*/
+
+    100% {
+        opacity: 1.5;
+        top: 10vh;
+        left: 11vw;
+        font-size: 20px;
+    }
+}
+
+@keyframes move2 {
+    0% {
+        opacity: 0.0;
+    }
+
+    /*50% {
+        opacity: 1.5;
+    }*/
+
+    100% {
+        opacity: 1.5;
+        top: 13vh;
+        left: 11vw;
+        font-size: 20px;
+    }
+}
+
+@keyframes move3 {
+    0% {
+        opacity: 0.0;
+    }
+
+    /*50% {
+        opacity: 1.5;
+    }*/
+
+    100% {
+        opacity: 1.5;
+        top: 16vh;
+        left: 11vw;
+        font-size: 20px;
+    }
+}
+/* tabs animations */
+@keyframes tab1 {
+    0% {
+        left: 0;
+        opacity: 0.0;
+    }
+
+    /*50% {
+        opacity: 1.5;
+    }*/
+
+    100% {
+        left: -20vw;
+        opacity: 1.5;
+    }
+}
+
+@keyframes tab2 {
+    0% {
+        top: -10vh;
+    }
+
+    /*50% {
+        opacity: 1.5;
+    }*/
+
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes tab3 {
+    0% {
+        left: -1vw;
+        opacity: 0.0;
+    }
+
+    /*80% {
+        opacity: 1.5;
+    }*/
+
+    100% {
+        left: 20vw;
+        opacity: 1.5;
     }
 }
