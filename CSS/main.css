@@ -34,6 +34,27 @@ body {
     position: relative;
 }
 
+@media all and (max-width: 859px) {
+    .main-tabBar {
+        position: relative;
+        margin: 8px;
+        border-style: solid;
+        border-color: white;
+        border-width: var(--tab-border);
+        display: flex;
+        justify-content: center;
+        width: 98vw;
+        height: auto;
+    
+    }
+    .main-tabBar-list {
+        display:flex;
+        width: 5vw;
+        position: relative;  
+        left: -15%;  
+    }
+}
+
 @media all and (max-width: 616px) {
     .main-tabBar {
         position: relative;
