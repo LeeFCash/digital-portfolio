@@ -41,7 +41,7 @@ body {
         border-style: solid;
         border-color: white;
         border-width: var(--tab-border);
-        /display: flex;
+        display: flex;
         justify-content: center;
         width: 97vw;
         height: auto;
