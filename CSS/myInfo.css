@@ -1,0 +1,23 @@
+@keyframes info-Text1 {
+    0% {
+        position: absolute;
+        opacity: 0.0;
+        top: 10vh;
+        left: 16vw;
+        font-size: 20px;
+    }
+    50% {
+        position: absolute;
+        opacity: 0.0;
+        top: 10vh;
+        left: 16vw;
+        font-size: 20px;    
+    }
+    100% {
+        position: absolute;
+        opacity: 1.5;
+        top: 10vh;
+        left: 16vw;
+        font-size: 20px;    
+    }
+}
