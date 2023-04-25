@@ -1,0 +1,23 @@
+.main-content-aboutMeContent-text2 {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+}
+
+.main-content-aboutMeContent-text2-number1 {
+    position: absolute;
+    top: 14vh;
+    left: 16vw;
+    font-size: 20px;
+}
+
+.main-content-aboutMeContent-text2-number2 {
+    position: absolute;
+    top: 14vh;
+    left: 17vw;
+    font-size: 20px;
+}
+
+.main-content-aboutMeContent-text2-animation {
+    animation: move2 5s ease-in-out forwards;
+}

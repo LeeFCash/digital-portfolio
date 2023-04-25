@@ -5,7 +5,7 @@
         transform: translate(-20vw);
     }
 
-    70% {
+    60% {
         border-radius: 0%;
     }
 
@@ -14,24 +14,6 @@
     }
 }
 
-@media (max-width: 374px) {
-    @keyframes IMGresize {
-        0% {
-            /*transform: scaleX(-1);*/
-            transform: translate(-20vw);
-        }
-    
-        70% {
-            border-radius: 0%;
-        }
-    
-        100% {
-            border-radius: 99%;
-            width: 20vw;
-        }
-    }
-    
-}
 /* word move in place */
 @keyframes move1 {
     0% {
@@ -84,154 +66,3 @@
     }
 }
 
-@media (max-width: 374px) {
-    @keyframes move1 {
-        0% {
-            opacity: 0.0;
-        }
-    
-        /*50% {
-            opacity: 1.5;
-        }*/
-    
-        100% {
-            opacity: 1.5;
-            top: 10vh;
-            left: 20vw;
-            font-size: 20px;
-        }
-    }
-    
-    @keyframes move2 {
-        0% {
-            opacity: 0.0;
-        }
-    
-        /*50% {
-            opacity: 1.5;
-        }*/
-    
-        100% {
-            opacity: 1.5;
-            top: 14vh;
-            left: 20vw;
-            font-size: 20px;
-        }
-    }
-    
-    @keyframes move3 {
-        0% {
-            opacity: 0.0;
-        }
-    
-        /*50% {
-            opacity: 1.5;
-        }*/
-    
-        100% {
-            opacity: 1.5;
-            top: 19vh;
-            left: 20vw;
-            font-size: 20px;
-        }
-    }
-    
-}
-/* tabs animations */
-@keyframes tab1 {
-    0% {
-        left: 0;
-        opacity: 0.0;
-    }
-
-    /*50% {
-        opacity: 1.5;
-    }*/
-
-    100% {
-        left: -20vw;
-        opacity: 1.5;
-    }
-}
-
-@keyframes tab2 {
-    0% {
-        top: -10vh;
-    }
-
-    /*50% {
-        opacity: 1.5;
-    }*/
-
-    100% {
-        top: 0;
-    }
-}
-
-@keyframes tab3 {
-    0% {
-        left: -1vw;
-        opacity: 0.0;
-    }
-
-    /*80% {
-        opacity: 1.5;
-    }*/
-
-    100% {
-        left: 20vw;
-        opacity: 1.5;
-    }
-}
-
-@media all and (max-width: 616px) {
-    @keyframes tab3 {
-        0% {
-            left: -1vw;
-            opacity: 0.0;
-        }
-    
-        /*80% {
-            opacity: 1.5;
-        }*/
-    
-        100% {
-            left: 18vw;
-            opacity: 1.5;
-        }
-    }
-}
-
-    @media all and (max-width: 374px) {
-        @keyframes tab3 {
-            0% {
-                left: -15vw;
-                opacity: 0.0;
-            }
-        
-            /*80% {
-                opacity: 1.5;
-            }*/
-        
-            100% {
-                left: 10vw;
-                opacity: 1.5;
-            }
-        }
-
-        @keyframes tab2 {
-            0% {
-                top: -10vh;
-                left: -5vw;
-            }
-        
-            /*50% {
-                opacity: 1.5;
-            }*/
-        
-            100% {
-                top: 0;
-                left: -5vw;
-            }
-        }        
-    }
