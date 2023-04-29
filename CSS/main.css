@@ -16,6 +16,8 @@
 @import "./aboutMeNameLetters/letters5/letter.css";
 @import "./aboutMeNameLetters/letters6/letter.css";
 @import "./aboutMeNameLetters/letters7/letter.css";
+@import "./aboutMeAgeNumbers/number1/number1.css";
+@import "./aboutMeAgeNumbers/number2/number2.css";
 :root {
 --tab-border: 1px;
 --tab-height: auto;
