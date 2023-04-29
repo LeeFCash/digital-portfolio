@@ -1,0 +1,11 @@
+.main-content-aboutMeContent-text1-letter7 {
+    position: absolute;
+    opacity: 1.5;
+    top: 10vh;
+    left: 23vw;
+    font-size: 20px;
+}
+
+.main-content-aboutMeContent-text1-letter7-animation {
+    animation: info-Text1 13s ease-out forwards;
+}
