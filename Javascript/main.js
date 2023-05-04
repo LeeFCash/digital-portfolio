@@ -1,4 +1,5 @@
 //alert("some phones or tablets may not show this website properly");
+/*
 var mainContentAboutMeContentText3Letters = document.getElementById("main-content-aboutMeContent-text3-letters");
 var v = "soon to graduation";
 var split = v.split("");
@@ -17,6 +18,36 @@ var timer = setInterval(ontick, 150);
 function ontick() {
     var letterSlector = mainContentAboutMeContentText3Letters.querySelectorAll('span')[letter];
     letterSlector.style.opacity = "1.5";
+    letter++;
+    if(letter === split.length){
+        clearInterval(timer);
+        timer = null;
+        return;
+    }
+}
+}
+test is under */
+
+var mainContentAboutMeContentText3Letters = document.getElementById("main-content-aboutMeContent-text3-letters");
+var v = "soon to graduation";
+var split = v.split("");
+console.log(split);
+
+for(let i = 0; i < split.length; i++){
+    mainContentAboutMeContentText3Letters.innerHTML += "<span class=\"main-content-aboutMeContent-text3-letter"+[i]+"-opacity0\">" + split[i] + "</span>";
+}
+
+setTimeout(setTimer, 5000);
+
+function setTimer() {
+var letter = 0;
+var timer = setInterval(ontick, 150);
+
+function ontick() {
+    var letterSlector = mainContentAboutMeContentText3Letters.querySelectorAll('span')[letter];
+    //letterSlector.style.opacity = "1.5";
+    letterSlector.style.animation = "text3LettersAnimation 5s ease-in-out forwards";
+    //letterSlector.classList.add("main-content-aboutMeContent-text3-letter10-opacity");
     letter++;
     if(letter === split.length){
         clearInterval(timer);

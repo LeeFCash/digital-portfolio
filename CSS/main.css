@@ -36,6 +36,7 @@
 @import "./aboutMeEducationLetters/letter16.css";
 @import "./aboutMeEducationLetters/letter17.css";
 @import "./aboutMeEducationLetters/letter18.css";
+@import "./aboutMeEducationLetters/TextAnimation.css";
 :root {
 --tab-border: 1px;
 --tab-height: auto;
