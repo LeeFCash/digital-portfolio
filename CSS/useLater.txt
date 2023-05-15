@@ -122,6 +122,11 @@
 }
 /* tabs animations */
 
+
+
+@media all (min-width: 1920px) and (min-height: 946px) {    and (min-width: 1920px) and (min-height: 946px)     }
+
+
 @media all and (max-width: 616px) {
     @keyframes tab3 {
         0% {

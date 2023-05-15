@@ -1,3 +1,5 @@
+@media all {
+
 .main-content-aboutMeContent-text2 {
     position: absolute;
     top: 50vh;
@@ -6,4 +8,5 @@
 
 .main-content-aboutMeContent-text2-animation {
     animation: move2 5s ease-in-out forwards;
+}
 }

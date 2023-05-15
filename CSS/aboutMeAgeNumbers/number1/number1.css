@@ -1,3 +1,5 @@
+@media all {
+
 .main-content-aboutMeContent-text2-number1 {
     position: absolute;
     top: 14vh;
@@ -7,4 +9,5 @@
 
 .main-content-aboutMeContent-text2-number1-animation {
     animation: info-Text1 7s ease-out forwards;
+}
 }

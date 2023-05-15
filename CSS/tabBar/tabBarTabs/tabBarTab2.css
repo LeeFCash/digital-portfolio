@@ -1,4 +1,7 @@
 @import "animations.css";
+@media all {
+
+
 .main-tabBar-tab2 {
     position: relative;
     margin: -8px;
@@ -15,4 +18,5 @@
 
 .main-tabBar-tab2-animation {
     animation: tab2 2s ease-in-out forwards;
+}
 }

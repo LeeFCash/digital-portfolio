@@ -1,3 +1,5 @@
+@media all {
+
 @keyframes tab1 {
     0% {
         left: 0;
@@ -42,4 +44,5 @@
         left: 20vw;
         opacity: 1.5;
     }
+}
 }

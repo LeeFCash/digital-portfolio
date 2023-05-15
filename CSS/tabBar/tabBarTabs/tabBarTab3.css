@@ -1,4 +1,7 @@
 @import "animations.css";
+
+@media all {
+
 .main-tabBar-tab3 {
     position: relative;
     left: 20vw;
@@ -17,4 +20,5 @@
 
 .main-tabBar-tab3-animation {
     animation: tab3 2s ease-in-out forwards;
+}
 }

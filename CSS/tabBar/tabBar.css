@@ -1,3 +1,5 @@
+@media all {
+
 .main-tabBar {
     position: relative;
     margin: 8px;
@@ -20,4 +22,5 @@
 .main-tabBar-tab-select {
     background-color: black;
     color: white;
+}
 }

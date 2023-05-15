@@ -1,3 +1,5 @@
+@media all {
+
 @keyframes move1 {
     0% {
         opacity: 0.0;
@@ -13,4 +15,5 @@
         left: 11vw;
         font-size: 20px;
     }
+}
 }

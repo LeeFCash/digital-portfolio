@@ -1,3 +1,5 @@
+@media all {
+
 @keyframes info-Text1 {
     0% {
         /*position: absolute;*/
@@ -20,4 +22,5 @@
         left: 16vw;
         font-size: 20px;*/    
     }
+}
 }

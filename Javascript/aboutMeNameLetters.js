@@ -15,9 +15,7 @@ var timer = setInterval(ontick, 150);
 
 function ontick() {
     var letterSlector = mainContentAboutMeContentText1Letters.querySelectorAll('span')[letter];
-    //letterSlector.style.opacity = "1.5";
-    letterSlector.style.animation = "text3LettersAnimation 1s forwards";
-    //letterSlector.classList.add("main-content-aboutMeContent-text3-letter10-opacity");
+    letterSlector.style.opacity = "1.5";
     letter++;
     if(letter === split.length){
         clearInterval(timer);

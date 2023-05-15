@@ -1,3 +1,5 @@
+@media all {
+
 @keyframes IMGresize {
     0% {
         /*transform: scaleX(-1);*/
@@ -11,4 +13,5 @@
     100% {
         border-radius: 99%;
     }
+}
 }
