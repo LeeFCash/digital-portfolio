@@ -4,7 +4,6 @@
 @import "./aboutMeTexts/aboutMeText1.css";
 @import "./aboutMeTexts/aboutMeText2.css";
 @import "./aboutMeTexts/aboutMeText3.css";
-@import "./tabBar/tabBar.css";
 @import "./tabBar/tabBarTabs/tabBarTab1.css";
 @import "./tabBar/tabBarTabs/tabBarTab2.css";
 @import "./tabBar/tabBarTabs/tabBarTab3.css";
@@ -37,6 +36,7 @@
 @import "./aboutMeEducationLetters/letter17.css";
 @import "./aboutMeEducationLetters/letter18.css";
 @import "./aboutMeEducationLetters/TextAnimation.css";
+@import "./tabBar/tabBar.css";
 @media all {
 
 :root {

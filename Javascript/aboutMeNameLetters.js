@@ -17,7 +17,7 @@ function ontick() {
     var letterSlector = mainContentAboutMeContentText1Letters.querySelectorAll('span')[letter];
     letterSlector.style.opacity = "1.5";
     letter++;
-    if(letter === split.length){
+    if(letterSlector === split.length){
         clearInterval(timer);
         timer = null;
         return;

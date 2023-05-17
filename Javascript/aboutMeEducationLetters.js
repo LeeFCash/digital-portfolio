@@ -1,5 +1,5 @@
 var mainContentAboutMeContentText3Letters = document.getElementById("main-content-aboutMeContent-text3-letters");
-var v = "soon to graduation";
+var v = "graduated";
 var split = v.split("");
 console.log(split);
 
@@ -17,7 +17,7 @@ function ontick() {
     var letterSlector = mainContentAboutMeContentText3Letters.querySelectorAll('span')[letter];
     letterSlector.style.opacity = "1.5";
     letter++;
-    if(letter === split.length){
+    if(letterSlector === split.length){
         clearInterval(timer);
         timer = null;
         return;
