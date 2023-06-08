@@ -1,0 +1,33 @@
+@keyframes textComeOut2 {
+    0%{
+        position: absolute;
+        top: 15%;
+        left: 51%;
+        font-size: 1%;
+        color: black;
+        }
+
+        70%{
+            position: absolute;
+            top: 15%;
+            left: 51%;
+            font-size: 1%;
+            color: black;
+            }
+    
+    100%{
+        position: absolute;
+        top: 35%;
+        left: 51%;
+        font-size: 66%;
+        color: white;
+        }
+}
+
+.main-content-aboutMeContent-rewardContent-text2 {
+    position: absolute;
+    top: 35%;
+    left: 51%;
+    font-size: 66%;
+    animation: textComeOut2 8s ease-in-out forwards;
+}

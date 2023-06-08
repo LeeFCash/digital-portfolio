@@ -1,0 +1,23 @@
+@keyframes imgSize1 {
+    0% {
+        position: absolute;
+        left: 25%;
+        width: 0%;
+        height: 0%;
+        }
+
+    100% {
+        position: absolute;
+        left: 25%;
+        width: 25%;
+        height: 35%;
+        }
+}
+
+.main-content-aboutMeContent-rewardContent-img1 {
+    position: absolute;
+    left: 25%;
+    width: 25%;
+    height: 35%;
+    animation: imgSize1 8s ease-in-out forwards;
+}

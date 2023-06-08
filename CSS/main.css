@@ -37,6 +37,12 @@
 @import "./aboutMeEducationLetters/letter18.css";
 @import "./aboutMeEducationLetters/TextAnimation.css";
 @import "./tabBar/tabBar.css";
+@import "./RewardsIMGSandText/img1.css";
+@import "./RewardsIMGSandText/text1.css";
+@import "./RewardsIMGSandText/img2.css";
+@import "./RewardsIMGSandText/text2.css";
+@import "./RewardsIMGSandText/img3.css";
+@import "./RewardsIMGSandText/text3.css";
 @media all {
 
 :root {
