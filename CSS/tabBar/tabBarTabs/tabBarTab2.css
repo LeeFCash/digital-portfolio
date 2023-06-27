@@ -2,7 +2,7 @@
 @media all {
 
 
-.main-tabBar-tab2 {
+#main-tabBar-tab2 {
     position: relative;
     margin: -8px;
     width: var(--tab-width);
