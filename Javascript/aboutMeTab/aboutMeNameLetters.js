@@ -8,6 +8,7 @@ for(let i = 0; i < split.length; i++){
     //mainContentAboutMeContentText2Number1.innerHTML += "<span style=\"opacity: 0.0; color: white;\"></span>";
 }
 
+///*
 var timer1 = setTimeout(setTimer, 5000);
 
 function setTimer() {
@@ -36,3 +37,12 @@ function ontick() {
     }
 }
 }
+//*/
+/*
+var letter = 0;
+while(letterSlector != split.length){
+const letterSlector = mainContentAboutMeContentText1Letters.querySelectorAll('span')[letter];
+letterSlector.style.setProperty("opacity", "1.0");
+letter++;
+}
+*/
