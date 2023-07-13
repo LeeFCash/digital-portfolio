@@ -22,6 +22,10 @@ function aboutMeAgeNumbers() {
     function setTimer() {
     var letter = 0;
     var timer = setInterval(ontick, 500);
+    setTimeout(function(){
+        clearInterval(timer);
+        timer = null;
+        }, 1000);
     
     function ontick() {
         const letterSlector = mainContentAboutMeContentText2Number1.querySelectorAll('span')[letter];
@@ -63,7 +67,10 @@ function aboutMeEducationLetters() {
     function setTimer() {
     var letter = 0;
     var timer = setInterval(ontick, 150);
-    
+    setTimeout(function(){
+        clearInterval(timer);
+        timer = null;
+        }, 2000);    
     function ontick() {
         const letterSlector = mainContentAboutMeContentText3Letters.querySelectorAll('span')[letter];
         letterSlector.style.setProperty("opacity", "1.0");
@@ -106,6 +113,10 @@ function aboutMeNameLetters() {
     function setTimer() {
     var letter = 0;
     var timer = setInterval(ontick, 150);
+    setTimeout(function(){
+        clearInterval(timer);
+        timer = null;
+        }, 2000);
     
     function ontick() {
         const letterSlector = mainContentAboutMeContentText1Letters.querySelectorAll('span')[letter];
