@@ -1,10 +1,10 @@
 aboutMeAgeNumbers();
 aboutMeEducationLetters();
 aboutMeNameLetters();
-//function stop 1 / functions
-/*setTimeout(function(){
-    var timer = null;
-}, 10000);*/
+//tab code
+var tabWorkSamples = document.getElementById("main-tabBar-tab2");
+
+tabWorkSamples.addEventListener("click", openTab2);
 //functions 
 function aboutMeAgeNumbers() {
     var mainContentAboutMeContentText2Number1 = document.getElementById("main-content-aboutMeContent-text2-number1");
@@ -140,12 +140,16 @@ function aboutMeNameLetters() {
         }
     }
     }
-    /*
-    var letter = 0;
-    while(letterSlector != split.length){
-    const letterSlector = mainContentAboutMeContentText1Letters.querySelectorAll('span')[letter];
-    letterSlector.style.setProperty("opacity", "1.0");
-    letter++;
     }
-    */
+    function openTab2() {
+    var aboutMeC = document.getElementById("main-content-aboutMeContent");
+    var mainContent = document.getElementById("main-content");
+    var mainTabBarList = document.getElementById("main-tabBar-list");
+    var tabID = document.getElementById("main-tabBar-tab-select");
+    tabID.removeAttribute("id");
+    tabWorkSamples.setAttribute("id", "main-tabBar-tab-select");
+    tabWorkSamples.style.fontSize = "100%";
+    //tabWorkSamples.style.width = "100";
+    //"main-tabBar-tab-select"
+    aboutMeC.remove();
     }
