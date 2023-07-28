@@ -144,12 +144,17 @@ function aboutMeNameLetters() {
     function openTab2() {
     var aboutMeC = document.getElementById("main-content-aboutMeContent");
     var mainContent = document.getElementById("main-content");
-    var mainTabBarList = document.getElementById("main-tabBar-list");
     var tabID = document.getElementById("main-tabBar-tab-select");
     tabID.removeAttribute("id");
-    tabWorkSamples.setAttribute("id", "main-tabBar-tab-select");
-    tabWorkSamples.style.fontSize = "100%";
-    //tabWorkSamples.style.width = "100";
-    //"main-tabBar-tab-select"
+    tabWorkSamples.style.backgroundColor = "black";
+    tabWorkSamples.style.color = "white";
     aboutMeC.remove();
+    var mainContentWorkSemplesContent = document.createElement("div");
+    mainContent.appendChild(mainContentWorkSemplesContent);
+    var myCh = document.createElement("img");
+        myCh.setAttribute("src", "./../../IMG/myBlog.png");
+        myCh.setAttribute("Class", "main-content-mainContentWorkSemplesContent-myBlogIMG")
+        //myCh.style.width = "70%";
+        //myCh.style.height = "90%";
+        mainContentWorkSemplesContent.appendChild(myCh);
     }
