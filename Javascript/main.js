@@ -152,9 +152,35 @@ function aboutMeNameLetters() {
     var mainContentWorkSemplesContent = document.createElement("div");
     mainContent.appendChild(mainContentWorkSemplesContent);
     var myCh = document.createElement("img");
-        myCh.setAttribute("src", "./../../IMG/myBlog.png");
-        myCh.setAttribute("Class", "main-content-mainContentWorkSemplesContent-myBlogIMG")
         //myCh.style.width = "70%";
         //myCh.style.height = "90%";
         mainContentWorkSemplesContent.appendChild(myCh);
+        myCh.setAttribute("src", "./../../IMG/myBlog.png");
+        myCh.setAttribute("Class", "main-content-mainContentWorkSemplesContent-myBlogIMG");
+        var myChB = document.createElement("button");
+        myChB.style.backgroundColor = "white";
+        myChB.style.position = "absolute";
+        myChB.style.height = "3%";
+        myChB.style.width = "2%";
+        myChB.style.left = "67%";
+        myChB.style.top = "20%";
+        mainContentWorkSemplesContent.appendChild(myChB);
+        var myChBN = 0;
+        myChB.addEventListener("click", function(){
+            if(myChBN === 0){
+                myChB.style.left = "58%";
+                myChB.style.top = "32%";
+                myChB.style.height = "3%";
+                myChB.style.width = "10%";
+                myCh.setAttribute("src", "./../../IMG/myB2.png");
+                myChBN = 1;
+            } else {if(myChBN === 1){
+                myChB.style.left = "28%";
+                myChB.style.top = "36%";
+                myChB.style.height = "3%";
+                myChB.style.width = "5%";
+                myCh.setAttribute("src", "./../../IMG/myCh.png");
+                myChBN = 2;
+            }}
+        });
     }
