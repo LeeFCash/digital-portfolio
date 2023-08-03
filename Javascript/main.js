@@ -155,7 +155,7 @@ function aboutMeNameLetters() {
         //myCh.style.width = "70%";
         //myCh.style.height = "90%";
         mainContentWorkSemplesContent.appendChild(myCh);
-        myCh.setAttribute("src", "./../IMG/myBlog.png");
+        myCh.setAttribute("src", "./../iMG/myBlog.png");
         myCh.setAttribute("Class", "main-content-mainContentWorkSemplesContent-myBlogIMG");
         var myChB = document.createElement("button");
         myChB.style.backgroundColor = "white";
