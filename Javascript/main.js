@@ -165,6 +165,14 @@ function aboutMeNameLetters() {
         myChB.style.left = "67%";
         myChB.style.top = "20%";
         mainContentWorkSemplesContent.appendChild(myChB);
+        var myChBN1 = document.createElement("button");
+        myChBN1.style.backgroundColor = "white";
+        myChBN1.style.position = "absolute";
+        myChBN1.style.height = "7%";
+        myChBN1.style.width = "30%";
+        myChBN1.style.left = "24%";
+        myChBN1.style.top = "29.8%";
+        mainContentWorkSemplesContent.appendChild(myChBN1);
         var myChBN = 0;
         myChB.addEventListener("click", function(){
             if(myChBN === 0){
@@ -181,6 +189,25 @@ function aboutMeNameLetters() {
                 myChB.style.width = "5%";
                 myCh.setAttribute("src", "../IMG/myCh.png");
                 myChBN = 2;
-            }}
+            } else {if(myChBN === 2){
+                myChB.style.left = "58%";
+                myChB.style.top = "32%";
+                myChB.style.height = "3%";
+                myChB.style.width = "10%";
+                myCh.setAttribute("src", "../IMG/myB2.png");
+                myChBN = 1;
+            }
+            }
+        }
+        });
+        myChBN1.addEventListener("click", function(){
+            var iframe = document.createElement("iframe");
+            iframe.setAttribute("src", "https://www.youtube.com/embed/r-h2IPPMpBo?list=PL7vr_kFNXDB7JnTKGR6ZX_kqQGjUqeBQ7");
+            iframe.setAttribute("height", "80%")
+            iframe.setAttribute("width", "69.9%");
+            iframe.style.position = "absolute";
+            iframe.style.right = "29.9%";
+            iframe.style.top = "17%";
+            mainContentWorkSemplesContent.appendChild(iframe);
         });
     }

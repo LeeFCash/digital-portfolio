@@ -4,3 +4,5 @@ just to remember {
     git remote add origin https://github.com/LeeFCash/resume.git
     git push -u origin main
 }
+
+<iframe width="1904" height="775" src="https://www.youtube.com/embed/r-h2IPPMpBo?list=PL7vr_kFNXDB7JnTKGR6ZX_kqQGjUqeBQ7" title="First code blog #1 (sorry for it not looking to well I just started doing this type of stuff)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
