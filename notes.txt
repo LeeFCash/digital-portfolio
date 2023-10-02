@@ -1,4 +1,4 @@
-https://leefcash.github.io/terminal/
+https://leefcash.github.io/digital-portfolio/
 above is link to the website 
 just to remember {
     git remote add origin https://github.com/LeeFCash/resume.git
