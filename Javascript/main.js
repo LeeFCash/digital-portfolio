@@ -151,7 +151,7 @@ function aboutMeNameLetters() {
     aboutMeC.remove();
     var mainContentWorkSemplesContent = document.createElement("div");
     mainContent.appendChild(mainContentWorkSemplesContent);
-    var myCh = document.createElement("img");
+    var myCh = document.createElement("div");
         //myCh.style.width = "70%";
         //myCh.style.height = "90%";
         mainContentWorkSemplesContent.appendChild(myCh);
