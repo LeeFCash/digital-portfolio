@@ -151,11 +151,11 @@ function aboutMeNameLetters() {
     aboutMeC.remove();
     var mainContentWorkSemplesContent = document.createElement("div");
     mainContent.appendChild(mainContentWorkSemplesContent);
-    var myCh = document.createElement("div");
+    var myCh = document.createElement("img");
         //myCh.style.width = "70%";
         //myCh.style.height = "90%";
         mainContentWorkSemplesContent.appendChild(myCh);
-        myCh.setAttribute("src", "../IMG/myBlog1.png");
+        myCh.setAttribute("src", "../IMG/myBlog.png");
         myCh.setAttribute("alt", "Not working");
         myCh.setAttribute("class", "main-content-mainContentWorkSemplesContent-myBlogIMG");
         var myChB = document.createElement("button");
