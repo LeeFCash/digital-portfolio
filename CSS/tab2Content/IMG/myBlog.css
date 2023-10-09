@@ -12,6 +12,7 @@
 
 @media all {
 .main-content-mainContentWorkSemplesContent-myBlogIMG {
+    display: block;
     height: 90%;
     width: 70%;
     animation: tab2IMG 2s ease-in-out forwards;
