@@ -155,7 +155,7 @@ function aboutMeNameLetters() {
         //myCh.style.width = "70%";
         //myCh.style.height = "90%";
         mainContentWorkSemplesContent.appendChild(myCh);
-        myCh.setAttribute("src", "./../IMG/myBlog.png");
+        myCh.setAttribute("src", "IMG/myBlog.png");
         myCh.setAttribute("alt", "Not working");
         myCh.setAttribute("class", "main-content-mainContentWorkSemplesContent-myBlogIMG");
         var myChB = document.createElement("button");
@@ -376,21 +376,21 @@ function aboutMeNameLetters() {
                 myChB.style.top = "32%";
                 myChB.style.height = "3%";
                 myChB.style.width = "10%";
-                myCh.setAttribute("src", "../IMG/myB2.png");
+                myCh.setAttribute("src", "IMG/myB2.png");
                 myChBN = 1;
             } else {if(myChBN === 1){
                 myChB.style.left = "28%";
                 myChB.style.top = "36%";
                 myChB.style.height = "3%";
                 myChB.style.width = "5%";
-                myCh.setAttribute("src", "../IMG/myCh.png");
+                myCh.setAttribute("src", "IMG/myCh.png");
                 myChBN = 2;
             } else {if(myChBN === 2){
                 myChB.style.left = "58%";
                 myChB.style.top = "32%";
                 myChB.style.height = "3%";
                 myChB.style.width = "10%";
-                myCh.setAttribute("src", "../IMG/myB2.png");
+                myCh.setAttribute("src", "IMG/myB2.png");
                 myChBN = 1;
             }
             }
