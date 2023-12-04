@@ -1,6 +1,17 @@
-aboutMeAgeNumbers();
-aboutMeEducationLetters();
-aboutMeNameLetters();
+startPage();
+//aboutMeAgeNumbers();
+//aboutMeEducationLetters();
+//aboutMeNameLetters();
+// get tabs and close 
+function startPage() {
+    var startPage = document.getElementById('main-content-startPage');
+    var aboutMeContent = document.getElementById('main-content-aboutMeContent');
+    var workSamples = document.getElementById('main-content-workSamples');
+    var contactMe = document.getElementById('main-content-contactMe');
+    aboutMeContent.remove();
+    workSamples.remove();
+    contactMe.remove();
+}
 //tab code
 var tabWorkSamples = document.getElementById("main-tabBar-tab2");
 
@@ -141,6 +152,7 @@ function aboutMeNameLetters() {
     }
     }
     }
+    /* old tab2 code
     function openTab2() {
     var aboutMeC = document.getElementById("main-content-aboutMeContent");
     var mainContent = document.getElementById("main-content");
@@ -398,3 +410,4 @@ function aboutMeNameLetters() {
         });
         
     }
+    */
