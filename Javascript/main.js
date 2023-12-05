@@ -2,6 +2,23 @@ startPage();
 //aboutMeAgeNumbers();
 //aboutMeEducationLetters();
 //aboutMeNameLetters();
+// tabsSwitch
+var mainContent = document.getElementById('main-content')
+var tab2 = document.getElementById('main-tabBar-workSamples');
+var tab3 = document.getElementById('main-tabBar-contactMeTab');
+var tab1p2 = false;
+var tab2p2 = false;
+var tab3p2 = false;
+var startPage = document.getElementById('main-content-startPage');
+var aboutMeContent = document.getElementById('main-content-aboutMeContent');
+var workSamples = document.getElementById('main-content-workSamples');
+var contactMe = document.getElementById('main-content-contactMe');
+var tab1 = document.getElementById('main-tabBar-aboutMeTab').addEventListener("click", function(){
+    if(tab1p2 == false && tab2p2 == false && tab3p2 == false) {
+        console.log('teeeeeeeest');
+        mainContent.appendChild(aboutMeContent);
+    }
+});
 // get tabs and close 
 function startPage() {
     var startPage = document.getElementById('main-content-startPage');
