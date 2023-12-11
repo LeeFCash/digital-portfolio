@@ -3,22 +3,29 @@ startPage();
 //aboutMeEducationLetters();
 //aboutMeNameLetters();
 // tabsSwitch
+function tab1() {
+console.log("start");
 var mainContent = document.getElementById('main-content')
-var tab2 = document.getElementById('main-tabBar-workSamples');
-var tab3 = document.getElementById('main-tabBar-contactMeTab');
+var tab2 = document.getElementById('mainTabBarWorkSamples');
+var tab3 = document.getElementById('mainTabBarContactMeTab');
 var tab1p2 = false;
 var tab2p2 = false;
 var tab3p2 = false;
+var startPagep2 = true;
 var startPage = document.getElementById('main-content-startPage');
 var aboutMeContent = document.getElementById('main-content-aboutMeContent');
 var workSamples = document.getElementById('main-content-workSamples');
 var contactMe = document.getElementById('main-content-contactMe');
-var tab1 = document.getElementById('main-tabBar-aboutMeTab').addEventListener("click", function(){
-    if(tab1p2 == false && tab2p2 == false && tab3p2 == false) {
-        console.log('teeeeeeeest');
-        mainContent.appendChild(aboutMeContent);
+//var tab1 = document.getElementsByClassName("main-tabBar-tab1 main-tabBar-tab1-animation").addEventListener('click', function() {
+if(tab1p2 === false && tab2p2 === false && tab3p2 === false && startPagep2 === true) {
+    console.log('teeeeeeeest');
+    mainContent.appendChild(aboutMeContent);
+    //aboutMeContent.appendChild(mainContent);
+    console.log('teeest over');
     }
-});
+//});
+console.log("end");
+}
 // get tabs and close 
 function startPage() {
     var startPage = document.getElementById('main-content-startPage');
@@ -29,10 +36,10 @@ function startPage() {
     workSamples.remove();
     contactMe.remove();
 }
-//tab code
+/*tab code
 var tabWorkSamples = document.getElementById("main-tabBar-tab2");
 
-tabWorkSamples.addEventListener("click", openTab2);
+tabWorkSamples.addEventListener("click", openTab2);*/
 //functions 
 function aboutMeAgeNumbers() {
     var mainContentAboutMeContentText2Number1 = document.getElementById("main-content-aboutMeContent-text2-number1");
