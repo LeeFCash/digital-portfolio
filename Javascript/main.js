@@ -1,3 +1,14 @@
+// removed elements
+var aboutMeContent = document.getElementById('main-content-aboutMeContent');
+var startPage1 = document.getElementById('main-content-startPage');
+var workSamples = document.getElementById('main-content-workSamples');
+var contactMe = document.getElementById('main-content-contactMe');
+// keep track
+var tab1p2 = false;
+var tab2p2 = false;
+var tab3p2 = false;
+var startPagep2 = true;
+// clean startPage
 startPage();
 //aboutMeAgeNumbers();
 //aboutMeEducationLetters();
@@ -5,26 +16,38 @@ startPage();
 // tabsSwitch
 function tab1() {
 console.log("start");
-var mainContent = document.getElementById('main-content')
-var tab2 = document.getElementById('mainTabBarWorkSamples');
-var tab3 = document.getElementById('mainTabBarContactMeTab');
-var tab1p2 = false;
-var tab2p2 = false;
-var tab3p2 = false;
-var startPagep2 = true;
-var startPage = document.getElementById('main-content-startPage');
-var aboutMeContent = document.getElementById('main-content-aboutMeContent');
-var workSamples = document.getElementById('main-content-workSamples');
-var contactMe = document.getElementById('main-content-contactMe');
-//var tab1 = document.getElementsByClassName("main-tabBar-tab1 main-tabBar-tab1-animation").addEventListener('click', function() {
+var mainContent = document.getElementById('main-content');
+var tab2 = document.getElementById('main-tabBar-workSamples');
+var tab3 = document.getElementById('main-tabBar-contactMeTab');
+
 if(tab1p2 === false && tab2p2 === false && tab3p2 === false && startPagep2 === true) {
-    console.log('teeeeeeeest');
+    startPage1.remove();
+    workSamples.remove();
+    contactMe.remove();
     mainContent.appendChild(aboutMeContent);
-    //aboutMeContent.appendChild(mainContent);
-    console.log('teeest over');
+    tab1p2 = true;
+    startPagep2 = false;
+    } else if(tab1p2 === false && tab2p2 === false && tab3p2 === true && startPagep2 === false){
+        startPage1.remove();
+        workSamples.remove();
+        contactMe.remove();
+        mainContent.appendChild(aboutMeContent);
+        tab1p2 = true;
+        tab3p2 = false
+    } else if(tab1p2 === false && tab2p2 === true && tab3p2 === false && startPagep2 === false) {
+        startPage1.remove();
+        workSamples.remove();
+        contactMe.remove();
+        mainContent.appendChild(aboutMeContent);
+        tab1p2 = true;
+        tab2p2 = false
+    } else if(tab1p2 === true && tab2p2 === false && tab3p2 === false && startPagep2 === false) {
+        alert('This tab is already open.');
+    } else {
+        alert('Something unexpected happen.');
     }
-//});
-console.log("end");
+    console.log("end");
+    return tab1p2, tab2p2, tab3p2, startPagep2;
 }
 // get tabs and close 
 function startPage() {
