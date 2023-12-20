@@ -1,13 +1,5 @@
-// removed elements
-var aboutMeContent = document.getElementById('main-content-aboutMeContent');
-var startPage1 = document.getElementById('main-content-startPage');
-var workSamples = document.getElementById('main-content-workSamples');
-var contactMe = document.getElementById('main-content-contactMe');
-// keep track
-var tab1p2 = false;
-var tab2p2 = false;
-var tab3p2 = false;
-var startPagep2 = true;
+// tracker
+var currentTab = 0;
 // clean startPage
 startPage();
 //aboutMeAgeNumbers();
@@ -15,49 +7,28 @@ startPage();
 //aboutMeNameLetters();
 // tabsSwitch
 function tab1() {
-console.log("start");
-var mainContent = document.getElementById('main-content');
-var tab2 = document.getElementById('main-tabBar-workSamples');
-var tab3 = document.getElementById('main-tabBar-contactMeTab');
-
-if(tab1p2 === false && tab2p2 === false && tab3p2 === false && startPagep2 === true) {
-    startPage1.remove();
-    workSamples.remove();
-    contactMe.remove();
+    var mainContent = document.getElementById('main-content');
+    var aboutMeContent = document.getElementById('main-content-aboutMeContent');
+    var startPage1 = document.getElementById('main-content-startPage');
+    var workSamples = document.getElementById('main-content-workSamples');
+    var contactMe = document.getElementById('main-content-contactMe');
+    currentTab = 1;
+    startPage1.style.visibility = "hidden";
+    workSamples.style.visibility = "hidden";
+    contactMe.style.visibility = "hidden";
+    aboutMeContent.remove();
     mainContent.appendChild(aboutMeContent);
-    tab1p2 = true;
-    startPagep2 = false;
-    } else if(tab1p2 === false && tab2p2 === false && tab3p2 === true && startPagep2 === false){
-        startPage1.remove();
-        workSamples.remove();
-        contactMe.remove();
-        mainContent.appendChild(aboutMeContent);
-        tab1p2 = true;
-        tab3p2 = false
-    } else if(tab1p2 === false && tab2p2 === true && tab3p2 === false && startPagep2 === false) {
-        startPage1.remove();
-        workSamples.remove();
-        contactMe.remove();
-        mainContent.appendChild(aboutMeContent);
-        tab1p2 = true;
-        tab2p2 = false
-    } else if(tab1p2 === true && tab2p2 === false && tab3p2 === false && startPagep2 === false) {
-        alert('This tab is already open.');
-    } else {
-        alert('Something unexpected happen.');
-    }
-    console.log("end");
-    return tab1p2, tab2p2, tab3p2, startPagep2;
+    aboutMeContent.style.visibility = "visible";
+    return currentTab;
 }
 // get tabs and close 
 function startPage() {
-    var startPage = document.getElementById('main-content-startPage');
     var aboutMeContent = document.getElementById('main-content-aboutMeContent');
     var workSamples = document.getElementById('main-content-workSamples');
     var contactMe = document.getElementById('main-content-contactMe');
-    aboutMeContent.remove();
-    workSamples.remove();
-    contactMe.remove();
+    aboutMeContent.style.visibility = "hidden";
+    workSamples.style.visibility = "hidden";
+    contactMe.style.visibility = "hidden";
 }
 /*tab code
 var tabWorkSamples = document.getElementById("main-tabBar-tab2");
