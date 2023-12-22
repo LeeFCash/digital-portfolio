@@ -14,11 +14,44 @@ function tab1() {
     var contactMe = document.getElementById('main-content-contactMe');
     currentTab = 1;
     startPage1.style.visibility = "hidden";
+    aboutMeContent.style.visibility = "hidden";
     workSamples.style.visibility = "hidden";
     contactMe.style.visibility = "hidden";
     aboutMeContent.remove();
     mainContent.appendChild(aboutMeContent);
     aboutMeContent.style.visibility = "visible";
+    return currentTab;
+}
+function tab2() {
+    var mainContent = document.getElementById('main-content');
+    var aboutMeContent = document.getElementById('main-content-aboutMeContent');
+    var startPage1 = document.getElementById('main-content-startPage');
+    var workSamples = document.getElementById('main-content-workSamples');
+    var contactMe = document.getElementById('main-content-contactMe');
+    currentTab = 2;
+    startPage1.style.visibility = "hidden";
+    aboutMeContent.style.visibility = "hidden";
+    workSamples.style.visibility = "hidden";
+    contactMe.style.visibility = "hidden";
+    workSamples.remove();
+    mainContent.appendChild(workSamples);
+    workSamples.style.visibility = "visible";
+    return currentTab;
+}
+function tab3() {
+    var mainContent = document.getElementById('main-content');
+    var aboutMeContent = document.getElementById('main-content-aboutMeContent');
+    var startPage1 = document.getElementById('main-content-startPage');
+    var workSamples = document.getElementById('main-content-workSamples');
+    var contactMe = document.getElementById('main-content-contactMe');
+    currentTab = 3;
+    startPage1.style.visibility = "hidden";
+    aboutMeContent.style.visibility = "hidden";
+    workSamples.style.visibility = "hidden";
+    contactMe.style.visibility = "hidden";
+    contactMe.remove();
+    mainContent.appendChild(contactMe);
+    contactMe.style.visibility = "visible";
     return currentTab;
 }
 // get tabs and close 
