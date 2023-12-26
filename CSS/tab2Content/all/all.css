@@ -1,0 +1,17 @@
+.main-content-workSamples {
+    /*display: grid;
+    grid-template-columns: 75% 35%;*/
+}
+
+.main-content-workSamples-img1 {
+    width: 75%;
+    height: 50%;
+}
+
+.main-content-workSamples-b1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 20%;
+    height: 20%;
+}

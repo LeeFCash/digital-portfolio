@@ -1,18 +1,22 @@
 // tracker
 var currentTab = 0;
+// removables 
+var mainContent = document.getElementById('main-content');
+var aboutMeContent = document.getElementById('main-content-aboutMeContent');
+var startPage1 = document.getElementById('main-content-startPage');
+var workSamples = document.getElementById('main-content-workSamples');
+var contactMe = document.getElementById('main-content-contactMe');
 // clean startPage
 startPage();
 // tabsSwitch
 function tab1() {
-    var mainContent = document.getElementById('main-content');
-    var aboutMeContent = document.getElementById('main-content-aboutMeContent');
-    var startPage1 = document.getElementById('main-content-startPage');
-    var workSamples = document.getElementById('main-content-workSamples');
-    var contactMe = document.getElementById('main-content-contactMe');
     startPage1.style.visibility = "hidden";
     aboutMeContent.style.visibility = "hidden";
     workSamples.style.visibility = "hidden";
     contactMe.style.visibility = "hidden";
+    contactMe.remove();
+    workSamples.remove();
+    startPage1.remove();
     aboutMeContent.remove();
     mainContent.appendChild(aboutMeContent);
     aboutMeContent.style.visibility = "visible";
@@ -25,16 +29,14 @@ function tab1() {
 }
 //
 function tab2() {
-    var mainContent = document.getElementById('main-content');
-    var aboutMeContent = document.getElementById('main-content-aboutMeContent');
-    var startPage1 = document.getElementById('main-content-startPage');
-    var workSamples = document.getElementById('main-content-workSamples');
-    var contactMe = document.getElementById('main-content-contactMe');
     startPage1.style.visibility = "hidden";
     aboutMeContent.style.visibility = "hidden";
     workSamples.style.visibility = "hidden";
     contactMe.style.visibility = "hidden";
+    contactMe.remove();
     workSamples.remove();
+    startPage1.remove();
+    aboutMeContent.remove();
     mainContent.appendChild(workSamples);
     workSamples.style.visibility = "visible";
     currentTab = 2;
@@ -48,16 +50,14 @@ function tab2() {
 }
 //
 function tab3() {
-    var mainContent = document.getElementById('main-content');
-    var aboutMeContent = document.getElementById('main-content-aboutMeContent');
-    var startPage1 = document.getElementById('main-content-startPage');
-    var workSamples = document.getElementById('main-content-workSamples');
-    var contactMe = document.getElementById('main-content-contactMe');
     startPage1.style.visibility = "hidden";
     aboutMeContent.style.visibility = "hidden";
     workSamples.style.visibility = "hidden";
     contactMe.style.visibility = "hidden";
     contactMe.remove();
+    workSamples.remove();
+    startPage1.remove();
+    aboutMeContent.remove();
     mainContent.appendChild(contactMe);
     contactMe.style.visibility = "visible";
     currentTab = 3;
