@@ -5,8 +5,50 @@
         left: 16vw;
         font-size: 20px;
     }
-    
     .main-content-aboutMeContent-text2-number1-animation {
         animation: info-Text1 7s ease-out forwards;
-    }    
+    }
+    .main-content-aboutMeContent-text2-number2 {
+        position: absolute;
+        top: 14vh;
+        left: 17vw;
+        font-size: 20px;
+    }
+    .main-content-aboutMeContent-text2-number2-animation {
+        animation: info-Text1 8s ease-out forwards;
+    }
+    .main-content-aboutMeContent-text3-letter0-opacity0 {
+        opacity: 0.0;
+    }
+    .main-content-aboutMeContent-text3-letter1-opacity0 {
+        opacity: 0.0;
+    }
+    .main-content-aboutMeContent-text3-letter2-opacity0 {
+        opacity: 0.0;
+    }
+    .main-content-aboutMeContent-text3-letter3-opacity0 {
+        opacity: 0.0;
+    }
+    .main-content-aboutMeContent-text3-letter4-opacity0 {
+        opacity: 0.0;
+    }
+    .main-content-aboutMeContent-text3-letter5-opacity0 {
+        opacity: 0.0;
+    }
+    .main-content-aboutMeContent-text3-letter6-opacity0 {
+        opacity: 0.0;
+    }
+    .main-content-aboutMeContent-text3-letter7-opacity0 {
+        opacity: 0.0;
+    }
+    .main-content-aboutMeContent-text3-letter8-opacity0 {
+        opacity: 0.0;
+    }
+    .main-content-aboutMeContent-text3-letter9-opacity0 {
+        opacity: 0.0;
+    }
+    .main-content-aboutMeContent-text3-letter10-opacity0 {
+        opacity: 0.0;
+    }
+    
 }
