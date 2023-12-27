@@ -1,4 +1,158 @@
 @media (max-width: 1871px) {
+    @keyframes IMGresize {
+        0% {
+            /*transform: scaleX(-1);*/
+            transform: translate(-20vw);
+        }
+    
+        60% {
+            border-radius: 0%;
+        }
+    
+        100% {
+            border-radius: 99%;
+        }
+    }    
+    @keyframes textComeOut3 {
+        0%{
+            position: absolute;
+            top: 15%;
+            left: 75%;
+            font-size: 1%;
+            color: black;
+            }
+    
+            70%{
+                position: absolute;
+                top: 15%;
+                left: 75%;
+                font-size: 1%;
+                color: black;
+                }
+        
+        100%{
+            position: absolute;
+            top: 35%;
+            left: 75%;
+            font-size: 66%;
+            color: white;
+            }
+    }    
+    @keyframes textComeOut2 {
+        0%{
+            position: absolute;
+            top: 15%;
+            left: 51%;
+            font-size: 1%;
+            color: black;
+            }
+    
+            70%{
+                position: absolute;
+                top: 15%;
+                left: 51%;
+                font-size: 1%;
+                color: black;
+                }
+        
+        100%{
+            position: absolute;
+            top: 35%;
+            left: 51%;
+            font-size: 66%;
+            color: white;
+            }
+    }    
+    @keyframes textComeOut1 {
+        0%{
+            position: absolute;
+            top: 15%;
+            left: 25%;
+            color: black;
+            }
+    
+            70%{
+                position: absolute;
+                top: 15%;
+                left: 25%;
+                color: black;
+                }
+        
+        100%{
+            position: absolute;
+            top: 46%;
+            left: 25%;
+            color: white;
+            }
+    }    
+    @keyframes imgSize3 {
+        0% {
+            position: absolute;
+            left: 75%;
+            width: 0%;
+            height: 0%;
+            }
+    
+        100% {
+            position: absolute;
+            left: 75%;
+            width: 24.7%;
+            height: 24.7%;
+            }
+    }    
+    @keyframes imgSize2 {
+        0% {
+            position: absolute;
+            left: 51%;
+            width: 0%;
+            height: 0%;
+            }
+    
+        100% {
+            position: absolute;
+            left: 51%;
+            width: 23%;
+            height: 23%;
+            }
+    }    
+    @keyframes imgSize1 {
+        0% {
+            position: absolute;
+            left: 25%;
+            width: 0%;
+            height: 0%;
+            }
+    
+        100% {
+            position: absolute;
+            left: 25%;
+            width: 25%;
+            height: 35%;
+            }
+    }    
+    @keyframes info-Text1 {
+        0% {
+            /*position: absolute;*/
+            opacity: 0.0;
+            /*top: 10vh;
+            left: 16vw;
+            font-size: 20px;*/
+        }
+        70% {
+            /*position: absolute;*/
+            opacity: 0.0;
+            /*top: 10vh;
+            left: 16vw;
+            font-size: 20px;*/    
+        }
+        100% {
+            /*position: absolute;*/
+            opacity: 1.5;
+            /*top: 10vh;
+            left: 16vw;
+            font-size: 20px;*/    
+        }
+    }    
     .main-content-aboutMeContent-text2-number1 {
         position: absolute;
         top: 16vh;
@@ -70,5 +224,102 @@
     }
     .main-content-aboutMeContent-text3-letter17-opacity0 {
         opacity: 0.0;
+    }
+    #main-content-aboutMeContent-text1-letter1 {
+        position: absolute;
+        opacity: 1.5;
+        top: 12vh;
+        left: 16vw;
+        font-size: +20px;
+    }
+    .main-content-aboutMeContent-text1-letter1-animation {
+        animation: info-Text1 7s ease-out forwards;
+    }
+    .main-content-aboutMeContent-text1 {
+        position: absolute;
+        top: 70vh;
+        left: 90vw;
+    }
+    
+    .main-content-aboutMeContent-text1-animation {
+        animation: move1 5s ease-in-out forwards;
+    }
+    .main-content-aboutMeContent-text2 {
+        position: absolute;
+        top: 50vh;
+        left: 50vw;
+    }
+    
+    .main-content-aboutMeContent-text2-animation {
+        animation: move2 5s ease-in-out forwards;
+    }
+    .main-content-aboutMeContent-text3 {
+        position: absolute;
+        top: 95vh;
+        left: 20vw;
+    }
+    .main-content-aboutMeContent-text3-letter1 {
+        position: absolute;
+        top: 21vh;
+        left: 16vw;
+        font-size: 20px;
+    }
+    
+    .main-content-aboutMeContent-text3-animation {
+        animation: move3 5s ease-in-out forwards;
+    }    
+    .main-content-aboutMeContent-rewardContent-img1 {
+        position: absolute;
+        top: 11%;
+        left: 25%;
+        width: 25%;
+        height: 35%;
+        animation: imgSize1 8s ease-in-out forwards;
+    }
+    .main-content-aboutMeContent-rewardContent-img2 {
+        position: absolute;
+        top: 11%;
+        left: 51%;
+        width: 23%;
+        height: 23%;
+        animation: imgSize2 8s ease-in-out forwards;
+    }
+    .main-content-aboutMeContent-rewardContent-img3 {
+        position: absolute;
+        top: 11%;
+        left: 75%;
+        width: 24.7%;
+        height: 24.7%;
+        animation: imgSize3 8s ease-in-out forwards;
+    }
+    .main-content-aboutMeContent-rewardContent-text1 {
+        position: absolute;
+        top: 46%;
+        left: 25%;
+        animation: textComeOut1 8s ease-in-out forwards;
+    }
+    .main-content-aboutMeContent-rewardContent-text2 {
+        position: absolute;
+        top: 35%;
+        left: 51%;
+        font-size: 66%;
+        animation: textComeOut2 8s ease-in-out forwards;
+    }
+    .main-content-aboutMeContent-rewardContent-text3 {
+        position: absolute;
+        top: 35%;
+        left: 75%;
+        font-size: 66%;
+        animation: textComeOut3 8s ease-in-out forwards;
+    }
+    .main-content-aboutMeContent-img1 {
+        position: absolute;
+        top: 11%;
+        width: 10vw;
+        height: 20vh;
+    }
+    
+    .main-content-aboutMeContent-img1-animation {
+        animation: IMGresize 5s ease-in-out forwards;
     }    
 }
