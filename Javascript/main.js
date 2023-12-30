@@ -20,9 +20,10 @@ function tab1() {
     aboutMeContent.remove();
     mainContent.appendChild(aboutMeContent);
     aboutMeContent.style.visibility = "visible";
-    aboutMeAgeNumbers();
+    /*aboutMeAgeNumbers();
     aboutMeEducationLetters();
-    aboutMeNameLetters();
+    aboutMeNameLetters();*/
+    aboutMeNAE();
     currentTab = 1;
 
     return currentTab;
@@ -40,12 +41,12 @@ function tab2() {
     mainContent.appendChild(workSamples);
     workSamples.style.visibility = "visible";
     currentTab = 2;
-    var mainContentAboutMeContentText2Number1 = document.getElementById("main-content-aboutMeContent-text2-number1");
+    /*var mainContentAboutMeContentText2Number1 = document.getElementById("main-content-aboutMeContent-text2-number1");
     mainContentAboutMeContentText2Number1.innerHTML = "";
     var mainContentAboutMeContentText3Letters = document.getElementById("main-content-aboutMeContent-text3-letters");
     mainContentAboutMeContentText3Letters.innerHTML = "";
     var mainContentAboutMeContentText1Letters = document.getElementById("main-content-aboutMeContent-text1-letter1");
-    mainContentAboutMeContentText1Letters.innerHTML = "";
+    mainContentAboutMeContentText1Letters.innerHTML = "";*/
     return currentTab;
 }
 //
@@ -79,6 +80,28 @@ function startPage() {
     contactMe.style.visibility = "hidden";
 }
 //functions Numbers and letters
+function aboutMeNAE() {
+    console.log('hello');
+    var mainContentAboutMeContentText1Letter1 = document.getElementById('main-content-aboutMeContent-text1-letter1');
+    var mainContentAboutMeContentText2Number1 = document.getElementById('main-content-aboutMeContent-text2-number1');
+    var mainContentAboutMeContentText3Letter2 = document.getElementById('main-content-aboutMeContent-text3-letter2');
+    var name = ["L", "e", "e", " ", "C", "a", "s", "h"];
+    var age = ["1", "9"];
+    var education = ["G", "r", "a", "d", "u", "a", "t", "e", "d"];
+    for (var i = 0; i < name.length; i++) {
+        mainContentAboutMeContentText1Letter1.innerHTML += "<spam class='main-content-aboutMeContent-text3-letter" + i + "-opacity0'>" + name[i] + "</spam>";
+        console.log(name[i]);
+    }
+    for (var i = 0; i < age.length; i++) {
+        mainContentAboutMeContentText2Number1.innerHTML += "<spam class='main-content-aboutMeContent-text3-letter" + i + "-opacity0'>" + age[i] + "</spam>";
+        console.log(name[i]);
+    }
+    for (var i = 0; i < education.length; i++) {
+        mainContentAboutMeContentText3Letter2.innerHTML += "<spam class='main-content-aboutMeContent-text3-letter" + i + "-opacity0'>" + education[i] + "</spam>";
+        console.log(name[i]);
+    }
+  }
+//
 function aboutMeAgeNumbers() {
     var mainContentAboutMeContentText2Number1 = document.getElementById("main-content-aboutMeContent-text2-number1");
     var v = "18";
