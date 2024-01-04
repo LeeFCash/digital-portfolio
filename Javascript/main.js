@@ -20,9 +20,6 @@ function tab1() {
     aboutMeContent.remove();
     mainContent.appendChild(aboutMeContent);
     aboutMeContent.style.visibility = "visible";
-    /*aboutMeAgeNumbers();
-    aboutMeEducationLetters();
-    aboutMeNameLetters();*/
     aboutMeNAE();
     currentTab = 1;
 
@@ -41,12 +38,6 @@ function tab2() {
     mainContent.appendChild(workSamples);
     workSamples.style.visibility = "visible";
     currentTab = 2;
-    /*var mainContentAboutMeContentText2Number1 = document.getElementById("main-content-aboutMeContent-text2-number1");
-    mainContentAboutMeContentText2Number1.innerHTML = "";
-    var mainContentAboutMeContentText3Letters = document.getElementById("main-content-aboutMeContent-text3-letters");
-    mainContentAboutMeContentText3Letters.innerHTML = "";
-    var mainContentAboutMeContentText1Letters = document.getElementById("main-content-aboutMeContent-text1-letter1");
-    mainContentAboutMeContentText1Letters.innerHTML = "";*/
     return currentTab;
 }
 //
@@ -62,12 +53,6 @@ function tab3() {
     mainContent.appendChild(contactMe);
     contactMe.style.visibility = "visible";
     currentTab = 3;
-    var mainContentAboutMeContentText2Number1 = document.getElementById("main-content-aboutMeContent-text2-number1");
-    mainContentAboutMeContentText2Number1.innerHTML = "";
-    var mainContentAboutMeContentText3Letters = document.getElementById("main-content-aboutMeContent-text3-letters");
-    mainContentAboutMeContentText3Letters.innerHTML = "";
-    var mainContentAboutMeContentText1Letters = document.getElementById("main-content-aboutMeContent-text1-letter1");
-    mainContentAboutMeContentText1Letters.innerHTML = "";
     return currentTab;
 }
 // get tabs and close 
@@ -83,8 +68,11 @@ function startPage() {
 function aboutMeNAE() {
     console.log('hello');
     var mainContentAboutMeContentText1Letter1 = document.getElementById('main-content-aboutMeContent-text1-letter1');
+    mainContentAboutMeContentText1Letter1.innerHTML = "";
     var mainContentAboutMeContentText2Number1 = document.getElementById('main-content-aboutMeContent-text2-number1');
+    mainContentAboutMeContentText2Number1.innerHTML = "";
     var mainContentAboutMeContentText3Letter2 = document.getElementById('main-content-aboutMeContent-text3-letter2');
+    mainContentAboutMeContentText3Letter2.innerHTML = "";
     var name = ["L", "e", "e", " ", "C", "a", "s", "h"];
     var age = ["1", "9"];
     var education = ["G", "r", "a", "d", "u", "a", "t", "e", "d"];
@@ -101,142 +89,6 @@ function aboutMeNAE() {
         console.log(name[i]);
     }
   }
-//
-function aboutMeAgeNumbers() {
-    var mainContentAboutMeContentText2Number1 = document.getElementById("main-content-aboutMeContent-text2-number1");
-    var v = "18";
-    var split = v.split("");
-    console.log(split);
-    
-    for(let i = 0; i < split.length; i++){
-        mainContentAboutMeContentText2Number1.innerHTML += "<span class=\"main-content-aboutMeContent-text3-letter"+[i]+"-opacity0\">" + split[i] + "</span>";
-        //mainContentAboutMeContentText2Number1.innerHTML += "<span style=\"opacity: 0.0; color: white;\"></span>";
-    }
-    
-    var timer1 = setTimeout(setTimer, 5000);
-    
-    function setTimer() {
-    var letter = 0;
-    var timer = setInterval(ontick, 500);
-    setTimeout(function(){
-        clearInterval(timer);
-        timer = null;
-        }, 1000);
-    
-    function ontick() {
-        const letterSlector = mainContentAboutMeContentText2Number1.querySelectorAll('span')[letter];
-        letterSlector.style.setProperty("opacity", "1.0");
-        letter++;
-        var i = 0;
-        i++;
-        if (i > 2) {
-            clearInterval(timer1);
-            clearInterval(timer);
-            var timer1 = null;
-            var timer = null;
-            return;
-        }
-    
-    
-        if(letterSlector === split.length){
-            clearInterval(timer);
-            timer = null;
-            return;
-        }
-    }
-    }
-}
-//
-function aboutMeEducationLetters() {
-    var mainContentAboutMeContentText3Letters = document.getElementById("main-content-aboutMeContent-text3-letters");
-    var v = "graduated";
-    var split = v.split("");
-    console.log(split);
-    
-    for(let i = 0; i < split.length; i++){
-        mainContentAboutMeContentText3Letters.innerHTML += "<span class=\"main-content-aboutMeContent-text3-letter"+[i]+"-opacity0\">" + split[i] + "</span>";
-        //mainContentAboutMeContentText2Number1.innerHTML += "<span style=\"opacity: 0.0; color: white;\"></span>";
-    }
-    
-    var timer1 = setTimeout(setTimer, 5000);
-    
-    function setTimer() {
-    var letter = 0;
-    var timer = setInterval(ontick, 150);
-    setTimeout(function(){
-        clearInterval(timer);
-        timer = null;
-        }, 2000);    
-    function ontick() {
-        const letterSlector = mainContentAboutMeContentText3Letters.querySelectorAll('span')[letter];
-        letterSlector.style.setProperty("opacity", "1.0");
-        letter++;
-    
-        var i = 0;
-        i++;
-        if (i > 9) {
-            clearInterval(timer1);
-            clearInterval(timer);
-            var timer1 = null;
-            var timer = null;
-            return;
-        }
-    
-    
-        if(letterSlector === split.length){
-            clearInterval(timer);
-            timer = null;
-            return;
-        }
-    }
-    }
-    }
-//
-function aboutMeNameLetters() {
-    var mainContentAboutMeContentText1Letters = document.getElementById("main-content-aboutMeContent-text1-letter1");
-    var v = "Lee F. Cash";
-    var split = v.split("");
-    console.log(split);
-    
-    for(let i = 0; i < split.length; i++){
-        mainContentAboutMeContentText1Letters.innerHTML += "<span class=\"main-content-aboutMeContent-text3-letter"+[i]+"-opacity0\">" + split[i] + "</span>";
-        //mainContentAboutMeContentText2Number1.innerHTML += "<span style=\"opacity: 0.0; color: white;\"></span>";
-    }
-    
-    ///*
-    var timer1 = setTimeout(setTimer, 5000);
-    
-    function setTimer() {
-    var letter = 0;
-    var timer = setInterval(ontick, 150);
-    setTimeout(function(){
-        clearInterval(timer);
-        timer = null;
-        }, 2000);
-    
-    function ontick() {
-        const letterSlector = mainContentAboutMeContentText1Letters.querySelectorAll('span')[letter];
-        letterSlector.style.setProperty("opacity", "1.0");
-        letter++;
-    
-        var i = 0;
-        i++;
-        if (i > 7) {
-            clearInterval(timer1);
-            clearInterval(timer);
-            var timer1 = null;
-            var timer = null;
-            return;
-        }
-    
-        if(letterSlector === split.length){
-            clearInterval(timer);
-            timer = null;
-            return;
-        }
-    }
-    }
-    }
     /* video to channal links 
             iframe.setAttribute("src", "https://www.youtube.com/embed/r-h2IPPMpBo?list=PL7vr_kFNXDB7JnTKGR6ZX_kqQGjUqeBQ7");
             v1
