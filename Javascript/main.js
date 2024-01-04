@@ -20,7 +20,14 @@ function tab1() {
     aboutMeContent.remove();
     mainContent.appendChild(aboutMeContent);
     aboutMeContent.style.visibility = "visible";
-    aboutMeNAE();
+    var mainContentAboutMeContentText1Letter1 = document.getElementById('main-content-aboutMeContent-text1-letter1');
+    mainContentAboutMeContentText1Letter1.innerHTML = "";
+    var mainContentAboutMeContentText2Number1 = document.getElementById('main-content-aboutMeContent-text2-number1');
+    mainContentAboutMeContentText2Number1.innerHTML = "";
+    var mainContentAboutMeContentText3Letter2 = document.getElementById('main-content-aboutMeContent-text3-letter2');
+    mainContentAboutMeContentText3Letter2.innerHTML = "";
+    setTimeout(aboutMeNAE, 5000);
+    //aboutMeNAE();
     currentTab = 1;
 
     return currentTab;
@@ -37,6 +44,7 @@ function tab2() {
     aboutMeContent.remove();
     mainContent.appendChild(workSamples);
     workSamples.style.visibility = "visible";
+    tab2function();
     currentTab = 2;
     return currentTab;
 }
@@ -88,6 +96,21 @@ function aboutMeNAE() {
         mainContentAboutMeContentText3Letter2.innerHTML += "<spam class='main-content-aboutMeContent-text3-letter" + i + "-opacity0'>" + education[i] + "</spam>";
         console.log(name[i]);
     }
+  }
+  // tab2 function
+  function tab2function() {
+    var mainContentWorkSamplesB1 = document.getElementById('main-content-workSamples-b1');
+    var mainContentWorkSamplesB2 = document.getElementById('main-content-workSamples-b2');
+    var mainContentWorkSamplesB3 = document.getElementById('main-content-workSamples-b3');
+    var mainContentWorkSamplesB4 = document.getElementById('main-content-workSamples-b4');
+    var mainContentWorkSamplesB5 = document.getElementById('main-content-workSamples-b5');
+    var mainContentWorkSamplesB6 = document.getElementById('main-content-workSamples-b6');
+    var mainContentWorkSamplesB7 = document.getElementById('main-content-workSamples-b7');
+    var mainContentWorkSamplesB8 = document.getElementById('main-content-workSamples-bCh1');
+    mainContentWorkSamplesB1.addEventListener("click", function() {
+        var iframe = document.createElement("iframe");
+        iframe.setAttribute("src", "https://www.youtube.com/embed/r-h2IPPMpBo?list=PL7vr_kFNXDB7JnTKGR6ZX_kqQGjUqeBQ7");
+    })
   }
     /* video to channal links 
             iframe.setAttribute("src", "https://www.youtube.com/embed/r-h2IPPMpBo?list=PL7vr_kFNXDB7JnTKGR6ZX_kqQGjUqeBQ7");

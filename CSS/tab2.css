@@ -19,45 +19,52 @@
     }
     .main-content-workSamples-b2 {
         position: absolute;
-        top: 28vh;
+        top: 35vh;
         left: 23.8vw;
         width: 28.1vw;
         height: 6.2vh;
     }
     .main-content-workSamples-b3 {
         position: absolute;
-        top: 28vh;
+        top: 42.7vh;
         left: 23.8vw;
         width: 28.1vw;
         height: 6.2vh;
     }
     .main-content-workSamples-b4 {
         position: absolute;
-        top: 28vh;
+        top: 49.94vh;
         left: 23.8vw;
         width: 28.1vw;
         height: 6.2vh;
     }
     .main-content-workSamples-b5 {
         position: absolute;
-        top: 28vh;
+        top: 57.3vh;
         left: 23.8vw;
         width: 28.1vw;
         height: 6.2vh;
     }
     .main-content-workSamples-b6 {
         position: absolute;
-        top: 28vh;
+        top: 64.6vh;
         left: 23.8vw;
         width: 28.1vw;
         height: 6.2vh;
     }
     .main-content-workSamples-b7 {
         position: absolute;
-        top: 28vh;
+        top: 72vh;
         left: 23.8vw;
         width: 28.1vw;
         height: 6.2vh;
+    }
+    .main-content-workSamples-bCh1 {
+        position: absolute;
+        top: 19.6vh;
+        left: 66vw;
+        width: 1.3vw;
+        height: 2.2vh;
     }
     .main-content-workSamples-img {
         height: 90%;
