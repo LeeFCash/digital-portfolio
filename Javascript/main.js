@@ -99,6 +99,7 @@ function aboutMeNAE() {
   }
   // tab2 function
   function tab2function() {
+    var mainContentWorkSamples = document.getElementById('main-content-workSamples');
     var mainContentWorkSamplesB1 = document.getElementById('main-content-workSamples-b1');
     var mainContentWorkSamplesB2 = document.getElementById('main-content-workSamples-b2');
     var mainContentWorkSamplesB3 = document.getElementById('main-content-workSamples-b3');
@@ -110,21 +111,42 @@ function aboutMeNAE() {
     mainContentWorkSamplesB1.addEventListener("click", function() {
         var iframe = document.createElement("iframe");
         iframe.setAttribute("src", "https://www.youtube.com/embed/r-h2IPPMpBo?list=PL7vr_kFNXDB7JnTKGR6ZX_kqQGjUqeBQ7");
+        mainContentWorkSamples.appendChild(iframe);
     })
+    mainContentWorkSamplesB2.addEventListener("click", function() {
+        var iframe = document.createElement("iframe");
+        iframe.setAttribute("src", "https://www.youtube.com/embed/bSdCY3ay8Qk?si=oYqbCSCG1mGvvJHq");
+        mainContentWorkSamples.appendChild(iframe);
+    })
+    mainContentWorkSamplesB3.addEventListener("click", function() {
+        var iframe = document.createElement("iframe");
+        iframe.setAttribute("src", "https://www.youtube.com/embed/_WRFMGZHrGs?si=dnKdbl2Izsi58Zg-");
+        mainContentWorkSamples.appendChild(iframe);
+    })
+    mainContentWorkSamplesB4.addEventListener("click", function() {
+        var iframe = document.createElement("iframe");
+        iframe.setAttribute("src", "https://www.youtube.com/embed/ryfU13Vkmls?si=etMo6sl_VNHCX2g2");
+        mainContentWorkSamples.appendChild(iframe);
+    })
+    mainContentWorkSamplesB5.addEventListener("click", function() {
+        var iframe = document.createElement("iframe");
+        iframe.setAttribute("src", "https://www.youtube.com/embed/s7Ih4r3CFsE?si=-4M_XEeRJlkSnCPG");
+        mainContentWorkSamples.appendChild(iframe);
+    })
+    mainContentWorkSamplesB6.addEventListener("click", function() {
+        var iframe = document.createElement("iframe");
+        iframe.setAttribute("src", "https://www.youtube.com/embed/L2SW84Q7L2I?si=6LtjayzBbDfoe7E5");
+        mainContentWorkSamples.appendChild(iframe);
+    })
+    mainContentWorkSamplesB7.addEventListener("click", function() {
+        var iframe = document.createElement("iframe");
+        iframe.setAttribute("src", "https://www.youtube.com/embed/H8eIcx-YAtE?si=GGAR0-2f4uLVPOvW");
+        mainContentWorkSamples.appendChild(iframe);
+        iframe.addEventListener("keypress", function(e) {
+            alert('hello');
+            if (e.key === 'Enter') {
+                iframe.remove();
+            }
+        });
+    });
   }
-    /* video to channal links 
-            iframe.setAttribute("src", "https://www.youtube.com/embed/r-h2IPPMpBo?list=PL7vr_kFNXDB7JnTKGR6ZX_kqQGjUqeBQ7");
-            v1
-            iframe.setAttribute("src", "https://www.youtube.com/embed/bSdCY3ay8Qk?si=oYqbCSCG1mGvvJHq");
-            v2
-            iframe.setAttribute("src", "https://www.youtube.com/embed/_WRFMGZHrGs?si=dnKdbl2Izsi58Zg-");
-            v3
-            iframe.setAttribute("src", "https://www.youtube.com/embed/ryfU13Vkmls?si=etMo6sl_VNHCX2g2");
-            v4
-            iframe.setAttribute("src", "https://www.youtube.com/embed/s7Ih4r3CFsE?si=-4M_XEeRJlkSnCPG");
-            v5
-            iframe.setAttribute("src", "https://www.youtube.com/embed/L2SW84Q7L2I?si=6LtjayzBbDfoe7E5");
-            v6
-            iframe.setAttribute("src", "https://www.youtube.com/embed/H8eIcx-YAtE?si=GGAR0-2f4uLVPOvW");
-            v7
-            */
