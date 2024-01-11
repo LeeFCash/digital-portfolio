@@ -111,42 +111,71 @@ function aboutMeNAE() {
     mainContentWorkSamplesB1.addEventListener("click", function() {
         var iframe = document.createElement("iframe");
         iframe.setAttribute("src", "https://www.youtube.com/embed/r-h2IPPMpBo?list=PL7vr_kFNXDB7JnTKGR6ZX_kqQGjUqeBQ7");
+        iframe.style.position = "absolute";
+        iframe.style.top = "18.6vh";
+        iframe.style.left = "0vw";
+        iframe.style.width = "68.6vw";
+        iframe.style.height = "66.6vh";
         mainContentWorkSamples.appendChild(iframe);
     })
     mainContentWorkSamplesB2.addEventListener("click", function() {
         var iframe = document.createElement("iframe");
         iframe.setAttribute("src", "https://www.youtube.com/embed/bSdCY3ay8Qk?si=oYqbCSCG1mGvvJHq");
+        iframe.style.position = "absolute";
+        iframe.style.top = "18.6vh";
+        iframe.style.left = "0vw";
+        iframe.style.width = "68.6vw";
+        iframe.style.height = "66.6vh";
         mainContentWorkSamples.appendChild(iframe);
     })
     mainContentWorkSamplesB3.addEventListener("click", function() {
         var iframe = document.createElement("iframe");
         iframe.setAttribute("src", "https://www.youtube.com/embed/_WRFMGZHrGs?si=dnKdbl2Izsi58Zg-");
+        iframe.style.position = "absolute";
+        iframe.style.top = "18.6vh";
+        iframe.style.left = "0vw";
+        iframe.style.width = "68.6vw";
+        iframe.style.height = "66.6vh";
         mainContentWorkSamples.appendChild(iframe);
     })
     mainContentWorkSamplesB4.addEventListener("click", function() {
         var iframe = document.createElement("iframe");
         iframe.setAttribute("src", "https://www.youtube.com/embed/ryfU13Vkmls?si=etMo6sl_VNHCX2g2");
+        iframe.style.position = "absolute";
+        iframe.style.top = "18.6vh";
+        iframe.style.left = "0vw";
+        iframe.style.width = "68.6vw";
+        iframe.style.height = "66.6vh";
         mainContentWorkSamples.appendChild(iframe);
     })
     mainContentWorkSamplesB5.addEventListener("click", function() {
         var iframe = document.createElement("iframe");
         iframe.setAttribute("src", "https://www.youtube.com/embed/s7Ih4r3CFsE?si=-4M_XEeRJlkSnCPG");
+        iframe.style.position = "absolute";
+        iframe.style.top = "18.6vh";
+        iframe.style.left = "0vw";
+        iframe.style.width = "68.6vw";
+        iframe.style.height = "66.6vh";
         mainContentWorkSamples.appendChild(iframe);
     })
     mainContentWorkSamplesB6.addEventListener("click", function() {
         var iframe = document.createElement("iframe");
         iframe.setAttribute("src", "https://www.youtube.com/embed/L2SW84Q7L2I?si=6LtjayzBbDfoe7E5");
+        iframe.style.position = "absolute";
+        iframe.style.top = "18.6vh";
+        iframe.style.left = "0vw";
+        iframe.style.width = "68.6vw";
+        iframe.style.height = "66.6vh";
         mainContentWorkSamples.appendChild(iframe);
     })
-    mainContentWorkSamplesB7.addEventListener("click", function() {
+    mainContentWorkSamplesB7.addEventListener("click", function(e) {
         var iframe = document.createElement("iframe");
         iframe.setAttribute("src", "https://www.youtube.com/embed/H8eIcx-YAtE?si=GGAR0-2f4uLVPOvW");
+        iframe.style.position = "absolute";
+        iframe.style.top = "18.6vh";
+        iframe.style.left = "0vw";
+        iframe.style.width = "68.6vw";
+        iframe.style.height = "66.6vh";
         mainContentWorkSamples.appendChild(iframe);
-        iframe.addEventListener("keypress", function(e) {
-            alert('hello');
-            if (e.key === 'Enter') {
-                iframe.remove();
-            }
-        });
     });
   }
