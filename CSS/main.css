@@ -2,7 +2,7 @@
 @import "tab2.css";
 @import "tab3.css";
 
-@media (max-width: 1871px) {
+@media (max-width: 1871px) {/*1871px <= edge chrome => 1919px*/
     @keyframes tab1 {
         0% {
             left: 0;
