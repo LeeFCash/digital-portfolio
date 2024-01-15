@@ -107,7 +107,10 @@ function aboutMeNAE() {
     var mainContentWorkSamplesB5 = document.getElementById('main-content-workSamples-b5');
     var mainContentWorkSamplesB6 = document.getElementById('main-content-workSamples-b6');
     var mainContentWorkSamplesB7 = document.getElementById('main-content-workSamples-b7');
-    var mainContentWorkSamplesB8 = document.getElementById('main-content-workSamples-bCh1');
+    var mainContentWorkSamplesBCh1 = document.getElementById('main-content-workSamples-bCh1');
+    var mainContentWorkSamplesImg = document.getElementById('main-content-workSamples-img');
+    var playList = document.getElementById('main-content-workSamples-playList');
+    var yourChannel = document.getElementById('main-content-workSamples-yourChannel');
     mainContentWorkSamplesB1.addEventListener("click", function() {
         var iframe = document.createElement("iframe");
         iframe.setAttribute("src", "https://www.youtube.com/embed/r-h2IPPMpBo?list=PL7vr_kFNXDB7JnTKGR6ZX_kqQGjUqeBQ7");
@@ -117,6 +120,10 @@ function aboutMeNAE() {
         iframe.style.width = "68.6vw";
         iframe.style.height = "66.6vh";
         mainContentWorkSamples.appendChild(iframe);
+        var backArrow = document.getElementById('main-content-workSamples-backArrow');
+        backArrow.addEventListener('click', function() {
+            iframe.remove();
+        })
     })
     mainContentWorkSamplesB2.addEventListener("click", function() {
         var iframe = document.createElement("iframe");
@@ -127,6 +134,10 @@ function aboutMeNAE() {
         iframe.style.width = "68.6vw";
         iframe.style.height = "66.6vh";
         mainContentWorkSamples.appendChild(iframe);
+        var backArrow = document.getElementById('main-content-workSamples-backArrow');
+        backArrow.addEventListener('click', function() {
+            iframe.remove();
+        })
     })
     mainContentWorkSamplesB3.addEventListener("click", function() {
         var iframe = document.createElement("iframe");
@@ -137,6 +148,10 @@ function aboutMeNAE() {
         iframe.style.width = "68.6vw";
         iframe.style.height = "66.6vh";
         mainContentWorkSamples.appendChild(iframe);
+        var backArrow = document.getElementById('main-content-workSamples-backArrow');
+        backArrow.addEventListener('click', function() {
+            iframe.remove();
+        })
     })
     mainContentWorkSamplesB4.addEventListener("click", function() {
         var iframe = document.createElement("iframe");
@@ -147,6 +162,10 @@ function aboutMeNAE() {
         iframe.style.width = "68.6vw";
         iframe.style.height = "66.6vh";
         mainContentWorkSamples.appendChild(iframe);
+        var backArrow = document.getElementById('main-content-workSamples-backArrow');
+        backArrow.addEventListener('click', function() {
+            iframe.remove();
+        })
     })
     mainContentWorkSamplesB5.addEventListener("click", function() {
         var iframe = document.createElement("iframe");
@@ -157,6 +176,10 @@ function aboutMeNAE() {
         iframe.style.width = "68.6vw";
         iframe.style.height = "66.6vh";
         mainContentWorkSamples.appendChild(iframe);
+        var backArrow = document.getElementById('main-content-workSamples-backArrow');
+        backArrow.addEventListener('click', function() {
+            iframe.remove();
+        })
     })
     mainContentWorkSamplesB6.addEventListener("click", function() {
         var iframe = document.createElement("iframe");
@@ -167,6 +190,10 @@ function aboutMeNAE() {
         iframe.style.width = "68.6vw";
         iframe.style.height = "66.6vh";
         mainContentWorkSamples.appendChild(iframe);
+        var backArrow = document.getElementById('main-content-workSamples-backArrow');
+        backArrow.addEventListener('click', function() {
+            iframe.remove();
+        })
     })
     mainContentWorkSamplesB7.addEventListener("click", function(e) {
         var iframe = document.createElement("iframe");
@@ -177,5 +204,36 @@ function aboutMeNAE() {
         iframe.style.width = "68.6vw";
         iframe.style.height = "66.6vh";
         mainContentWorkSamples.appendChild(iframe);
+        var backArrow = document.getElementById('main-content-workSamples-backArrow');
+        backArrow.addEventListener('click', function() {
+            iframe.remove();
+        })
+    });
+    mainContentWorkSamplesBCh1.addEventListener('click', function() {
+        mainContentWorkSamplesImg.setAttribute('src', './IMG/myB2.png');
+        yourChannel.classList.toggle('yourChannel');
+        yourChannel.addEventListener('click', function() {
+            yourChannel.classList.toggle('yourChannel');
+            mainContentWorkSamplesB1.classList.toggle('main-content-workSamples-b1');
+            mainContentWorkSamplesB2.classList.toggle('main-content-workSamples-b2');
+            mainContentWorkSamplesB3.classList.toggle('main-content-workSamples-b3');
+            mainContentWorkSamplesB4.classList.toggle('main-content-workSamples-b4');
+            mainContentWorkSamplesB5.classList.toggle('main-content-workSamples-b5');
+            mainContentWorkSamplesB6.classList.toggle('main-content-workSamples-b6');
+            mainContentWorkSamplesB7.classList.toggle('main-content-workSamples-b7');
+            mainContentWorkSamplesImg.setAttribute('src', './IMG/myCh.png');
+            playList.classList.toggle('main-content-workSamples-playList');
+            playList.addEventListener('click', function() {
+                mainContentWorkSamplesImg.setAttribute('src', './IMG/myBlog.png');
+                mainContentWorkSamplesB1.classList.toggle('main-content-workSamples-b1');
+                mainContentWorkSamplesB2.classList.toggle('main-content-workSamples-b2');
+                mainContentWorkSamplesB3.classList.toggle('main-content-workSamples-b3');
+                mainContentWorkSamplesB4.classList.toggle('main-content-workSamples-b4');
+                mainContentWorkSamplesB5.classList.toggle('main-content-workSamples-b5');
+                mainContentWorkSamplesB6.classList.toggle('main-content-workSamples-b6');
+                mainContentWorkSamplesB7.classList.toggle('main-content-workSamples-b7');
+                playList.classList.toggle('main-content-workSamples-playList');
+            });
+        });
     });
   }

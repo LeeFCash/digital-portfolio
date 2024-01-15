@@ -1,5 +1,5 @@
 
-@media (max-width: 1871px) {  
+@media (max-width: 1919px) {  
     @keyframes tab2IMG {
         0% {
             width: 0%;
@@ -71,5 +71,25 @@
         width: 70%;
         animation: tab2IMG 2s ease-in-out forwards;
     }
-    
+    .main-content-workSamples-backArrow {
+        position: absolute;
+        top: 14.5vh;
+        left: 0.3vw;
+        width: 1vw;
+        height: 1.2vh;
+    }
+    .yourChannel {
+        position: absolute;
+        top: 31vh;
+        left: 57.6vw;
+        width: 10vw;
+        height: 2vh;
+    }
+    .main-content-workSamples-playList {
+        position: absolute;
+        top: 35vh;
+        left: 27.8vw;
+        width: 3vw;
+        height: 2vh;
+    }
 }
