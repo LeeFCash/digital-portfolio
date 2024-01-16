@@ -212,28 +212,29 @@ function aboutMeNAE() {
     mainContentWorkSamplesBCh1.addEventListener('click', function() {
         mainContentWorkSamplesImg.setAttribute('src', './IMG/myB2.png');
         yourChannel.classList.toggle('yourChannel');
-        yourChannel.addEventListener('click', function() {
-            yourChannel.classList.toggle('yourChannel');
-            mainContentWorkSamplesB1.classList.toggle('main-content-workSamples-b1');
-            mainContentWorkSamplesB2.classList.toggle('main-content-workSamples-b2');
-            mainContentWorkSamplesB3.classList.toggle('main-content-workSamples-b3');
-            mainContentWorkSamplesB4.classList.toggle('main-content-workSamples-b4');
-            mainContentWorkSamplesB5.classList.toggle('main-content-workSamples-b5');
-            mainContentWorkSamplesB6.classList.toggle('main-content-workSamples-b6');
-            mainContentWorkSamplesB7.classList.toggle('main-content-workSamples-b7');
-            mainContentWorkSamplesImg.setAttribute('src', './IMG/myCh.png');
-            playList.classList.toggle('main-content-workSamples-playList');
-            playList.addEventListener('click', function() {
-                mainContentWorkSamplesImg.setAttribute('src', './IMG/myBlog.png');
-                mainContentWorkSamplesB1.classList.toggle('main-content-workSamples-b1');
-                mainContentWorkSamplesB2.classList.toggle('main-content-workSamples-b2');
-                mainContentWorkSamplesB3.classList.toggle('main-content-workSamples-b3');
-                mainContentWorkSamplesB4.classList.toggle('main-content-workSamples-b4');
-                mainContentWorkSamplesB5.classList.toggle('main-content-workSamples-b5');
-                mainContentWorkSamplesB6.classList.toggle('main-content-workSamples-b6');
-                mainContentWorkSamplesB7.classList.toggle('main-content-workSamples-b7');
-                playList.classList.toggle('main-content-workSamples-playList');
-            });
-        });
     });
+    yourChannel.addEventListener('click', function() {
+        yourChannel.classList.toggle('yourChannel');
+        mainContentWorkSamplesB1.classList.toggle('main-content-workSamples-b1');
+        mainContentWorkSamplesB2.classList.toggle('main-content-workSamples-b2');
+        mainContentWorkSamplesB3.classList.toggle('main-content-workSamples-b3');
+        mainContentWorkSamplesB4.classList.toggle('main-content-workSamples-b4');
+        mainContentWorkSamplesB5.classList.toggle('main-content-workSamples-b5');
+        mainContentWorkSamplesB6.classList.toggle('main-content-workSamples-b6');
+        mainContentWorkSamplesB7.classList.toggle('main-content-workSamples-b7');
+        mainContentWorkSamplesImg.setAttribute('src', './IMG/myCh.png');
+        playList.classList.toggle('main-content-workSamples-playList');
+    });
+    playList.addEventListener('click', function() {
+        mainContentWorkSamplesImg.setAttribute('src', './IMG/myBlog.png');
+        mainContentWorkSamplesB1.classList.toggle('main-content-workSamples-b1');
+        mainContentWorkSamplesB2.classList.toggle('main-content-workSamples-b2');
+        mainContentWorkSamplesB3.classList.toggle('main-content-workSamples-b3');
+        mainContentWorkSamplesB4.classList.toggle('main-content-workSamples-b4');
+        mainContentWorkSamplesB5.classList.toggle('main-content-workSamples-b5');
+        mainContentWorkSamplesB6.classList.toggle('main-content-workSamples-b6');
+        mainContentWorkSamplesB7.classList.toggle('main-content-workSamples-b7');
+        playList.classList.toggle('main-content-workSamples-playList');
+    });
+
   }
