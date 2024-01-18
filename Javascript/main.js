@@ -109,6 +109,7 @@ function aboutMeNAE() {
     var mainContentWorkSamplesB7 = document.getElementById('main-content-workSamples-b7');
     var mainContentWorkSamplesBCh1 = document.getElementById('main-content-workSamples-bCh1');
     var mainContentWorkSamplesImg = document.getElementById('main-content-workSamples-img');
+    var toChannel = document.getElementById('main-content-workSamples-toChannel');
     var playList = document.getElementById('main-content-workSamples-playList');
     var yourChannel = document.getElementById('main-content-workSamples-yourChannel');
     mainContentWorkSamplesB1.addEventListener("click", function() {
@@ -190,10 +191,6 @@ function aboutMeNAE() {
         iframe.style.width = "68.6vw";
         iframe.style.height = "66.6vh";
         mainContentWorkSamples.appendChild(iframe);
-        var backArrow = document.getElementById('main-content-workSamples-backArrow');
-        backArrow.addEventListener('click', function() {
-            iframe.remove();
-        })
     })
     mainContentWorkSamplesB7.addEventListener("click", function(e) {
         var iframe = document.createElement("iframe");
@@ -224,6 +221,10 @@ function aboutMeNAE() {
         mainContentWorkSamplesB7.classList.toggle('main-content-workSamples-b7');
         mainContentWorkSamplesImg.setAttribute('src', './IMG/myCh.png');
         playList.classList.toggle('main-content-workSamples-playList');
+        toChannel.style.top = '24vh';
+        toChannel.style.left = '15vw';
+        toChannel.style.width = '5.1vw';
+        toChannel.style.height = '10vh';
     });
     playList.addEventListener('click', function() {
         mainContentWorkSamplesImg.setAttribute('src', './IMG/myBlog.png');
@@ -235,6 +236,10 @@ function aboutMeNAE() {
         mainContentWorkSamplesB6.classList.toggle('main-content-workSamples-b6');
         mainContentWorkSamplesB7.classList.toggle('main-content-workSamples-b7');
         playList.classList.toggle('main-content-workSamples-playList');
+        toChannel.style.top = '50.3vh';
+        toChannel.style.left = '10.3vw';
+        toChannel.style.width = '1.5vw';
+        toChannel.style.height = '2.5vh';
     });
 
   }

@@ -92,4 +92,15 @@
         width: 3vw;
         height: 2vh;
     }
+    .main-content-workSamples-toChannel {
+        position: absolute;
+        top: 50.3vh;
+        left: 10.3vw;
+        width: 1.5vw;
+        height: 2.5vh;
+        background-color: white;
+    }
+    .main-content-workSamples-toChannel-link {
+        opacity: 0.0;
+    }
 }
