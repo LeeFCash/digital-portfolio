@@ -103,4 +103,10 @@
     .main-content-workSamples-toChannel-link {
         opacity: 0.0;
     }
+    .main-content-workSamples-rightDivForText {
+        position: absolute;
+        top: 11vh;
+        left: 69vw;
+        width: 10vw;
+    }
 }
