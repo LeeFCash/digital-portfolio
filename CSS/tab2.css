@@ -103,10 +103,12 @@
     .main-content-workSamples-toChannel-link {
         opacity: 0.0;
     }
-    .main-content-workSamples-rightDivForText {
+    .main-content-workSamples-Text {
         position: absolute;
-        top: 11vh;
+        top: 23vh;
         left: 69vw;
-        width: 10vw;
+        min-width: 0;
+        width: 30vw;
+        font-size: 2vw;
     }
 }
