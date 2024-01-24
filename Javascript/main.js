@@ -119,7 +119,7 @@ function aboutMeNAE() {
         iframe.style.top = "18.6vh";
         iframe.style.left = "0vw";
         iframe.style.width = "68.6vw";
-        iframe.style.height = "66.6vh";
+        iframe.style.height = "79.1vh";
         mainContentWorkSamples.appendChild(iframe);
         var backArrow = document.getElementById('main-content-workSamples-backArrow');
         backArrow.addEventListener('click', function() {
@@ -133,7 +133,7 @@ function aboutMeNAE() {
         iframe.style.top = "18.6vh";
         iframe.style.left = "0vw";
         iframe.style.width = "68.6vw";
-        iframe.style.height = "66.6vh";
+        iframe.style.height = "79.1vh";
         mainContentWorkSamples.appendChild(iframe);
         var backArrow = document.getElementById('main-content-workSamples-backArrow');
         backArrow.addEventListener('click', function() {
@@ -147,7 +147,7 @@ function aboutMeNAE() {
         iframe.style.top = "18.6vh";
         iframe.style.left = "0vw";
         iframe.style.width = "68.6vw";
-        iframe.style.height = "66.6vh";
+        iframe.style.height = "79.1vh";
         mainContentWorkSamples.appendChild(iframe);
         var backArrow = document.getElementById('main-content-workSamples-backArrow');
         backArrow.addEventListener('click', function() {
@@ -161,7 +161,7 @@ function aboutMeNAE() {
         iframe.style.top = "18.6vh";
         iframe.style.left = "0vw";
         iframe.style.width = "68.6vw";
-        iframe.style.height = "66.6vh";
+        iframe.style.height = "79.1vh";
         mainContentWorkSamples.appendChild(iframe);
         var backArrow = document.getElementById('main-content-workSamples-backArrow');
         backArrow.addEventListener('click', function() {
@@ -175,7 +175,7 @@ function aboutMeNAE() {
         iframe.style.top = "18.6vh";
         iframe.style.left = "0vw";
         iframe.style.width = "68.6vw";
-        iframe.style.height = "66.6vh";
+        iframe.style.height = "79.1vh";
         mainContentWorkSamples.appendChild(iframe);
         var backArrow = document.getElementById('main-content-workSamples-backArrow');
         backArrow.addEventListener('click', function() {
@@ -189,7 +189,7 @@ function aboutMeNAE() {
         iframe.style.top = "18.6vh";
         iframe.style.left = "0vw";
         iframe.style.width = "68.6vw";
-        iframe.style.height = "66.6vh";
+        iframe.style.height = "79.1vh";
         mainContentWorkSamples.appendChild(iframe);
     })
     mainContentWorkSamplesB7.addEventListener("click", function(e) {
@@ -199,7 +199,7 @@ function aboutMeNAE() {
         iframe.style.top = "18.6vh";
         iframe.style.left = "0vw";
         iframe.style.width = "68.6vw";
-        iframe.style.height = "66.6vh";
+        iframe.style.height = "79.1vh";
         mainContentWorkSamples.appendChild(iframe);
         var backArrow = document.getElementById('main-content-workSamples-backArrow');
         backArrow.addEventListener('click', function() {
