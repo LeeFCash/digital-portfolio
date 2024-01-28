@@ -61,6 +61,7 @@ function tab3() {
     mainContent.appendChild(contactMe);
     contactMe.style.visibility = "visible";
     currentTab = 3;
+    tab3function();
     return currentTab;
 }
 // get tabs and close 
@@ -242,4 +243,18 @@ function aboutMeNAE() {
         toChannel.style.height = '3vh';
     });
 
+  }
+  function tab3function() {
+    var textDiv1 = document.getElementById('main-content-contactMe-text-div1');
+    var textDiv2 = document.getElementById('main-content-contactMe-text-div2');
+    var text = ['T', 'o', ' ', 'c', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e', ',', ' ', 'y', 'o', 'u', ' ', 'c', 'a', 'n', ' '];
+    var text2 = ['a', 'n', 'd', ' ', 't', 'o', ' ', 't', 'h', 'e', ' ', 'r', 'i', 'g', 'h', 't', ',', ' ', 'y', 'o', 'u', ' ', 'c', 'a', 'n', ' ', 'c', 'l', 'i', 'c', 'k', ' ', 'C', 'o', 'm', 'p', 'o', 's', 's', ' ', 't', 'o', ' ', 'e', 'm', 'a', 'i', 'l', ' ', 'm', 'e', '.'];
+    for(var i = 0; i <= text.length; i++) {
+        textDiv1.style.color = 'white';
+        textDiv1.innerHTML += text[i];
+    }
+  for(var i = 0; i <= text2.length; i++) {
+    textDiv2.style.color = 'white';
+    textDiv2.innerHTML += text2[i];
+  }
   }
