@@ -2,12 +2,19 @@
     .main-content-contactMe-img {
         position: absolute;
         top: 11vh;
-        left: 20vw;
-        width: 79vw;
+        left: 25vw;
+        width: 70vw;
         height: 88.8vh;
     }
+    .main-content-contactMe-text {
+        width: 50vw;
+    }
     .main-content-contactMe-text1 {
+        font-size: 1.5vh;
         min-width: 0vw;
-        width: 23vw;
+        width: 50vw;
+    }
+    .text-link {
+        font-size: 1.5vh;
     }
 }
