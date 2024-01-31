@@ -242,19 +242,27 @@ function aboutMeNAE() {
         toChannel.style.width = '1.5vw';
         toChannel.style.height = '3vh';
     });
-
+    var toChannel = document.getElementById('main-content-workSamples-toChannel');
+    toChannel.addEventListener('click', function() {
+        window.open("https://www.youtube.com/@codeShowCase/featured");
+    });
   }
   function tab3function() {
     var textDiv1 = document.getElementById('main-content-contactMe-text-div1');
     var textDiv2 = document.getElementById('main-content-contactMe-text-div2');
-    var text = ['T', 'o', ' ', 'c', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e', ',', ' ', 'y', 'o', 'u', ' ', 'c', 'a', 'n', 'e', 'm', 'a', 'i', 'l'];
+    var text = ['T', 'o', ' ', 'c', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e', ',', ' ', 'y', 'o', 'u', ' ', 'c', 'a', 'n', ' ', 'e', 'm', 'a', 'i', 'l'];
     var text2 = ['a', 'n', 'd', ' ', 't', 'o', ' ', 't', 'h', 'e', ' ', 'r', 'i', 'g', 'h', 't', ',', ' ', 'y', 'o', 'u', ' ', 'c', 'a', 'n', ' ', 'c', 'l', 'i', 'c', 'k', ' ', 'C', 'o', 'm', 'p', 'o', 's', 's', ' ', 't', 'o', ' ', 'e', 'm', 'a', 'i', 'l', ' ', 'm', 'e', '.'];
-    for(var i = 0; i <= text.length-1; i++) {
+    for(var i = 0; i <= text.length - 1; i++) {
         textDiv1.style.color = 'white';
         textDiv1.innerHTML += text[i];
     }
-  for(var i = 0; i <= text2.length; i++) {
+  for(var i = 0; i <= text2.length - 1; i++) {
     textDiv2.style.color = 'white';
     textDiv2.innerHTML += text2[i];
   }
+  var composs = document.getElementById('composs');
+  composs.setAttribute('class', 'composs');
+  composs.addEventListener('click', function() {
+    window.open("https://mail.google.com/mail/u/0/#inbox?compose=new");
+  });
   }
