@@ -250,15 +250,17 @@ function aboutMeNAE() {
   function tab3function() {
     var textDiv1 = document.getElementById('main-content-contactMe-text-div1');
     var textDiv2 = document.getElementById('main-content-contactMe-text-div2');
+    textDiv1.innerHTML = "";
+    textDiv2.innerHTML = "";
     var text = ['T', 'o', ' ', 'c', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e', ',', ' ', 'y', 'o', 'u', ' ', 'c', 'a', 'n', ' ', 'e', 'm', 'a', 'i', 'l'];
     var text2 = ['a', 'n', 'd', ' ', 't', 'o', ' ', 't', 'h', 'e', ' ', 'r', 'i', 'g', 'h', 't', ',', ' ', 'y', 'o', 'u', ' ', 'c', 'a', 'n', ' ', 'c', 'l', 'i', 'c', 'k', ' ', 'C', 'o', 'm', 'p', 'o', 's', 's', ' ', 't', 'o', ' ', 'e', 'm', 'a', 'i', 'l', ' ', 'm', 'e', '.'];
     for(var i = 0; i <= text.length - 1; i++) {
         textDiv1.style.color = 'white';
-        textDiv1.innerHTML += text[i];
+        textDiv1.innerHTML += '<span class="textDiv' + i + '">' + text[i] + '</span>';
     }
   for(var i = 0; i <= text2.length - 1; i++) {
     textDiv2.style.color = 'white';
-    textDiv2.innerHTML += text2[i];
+    textDiv2.innerHTML += '<span class="textDiv' + i + '">' + text2[i] + '</span>';
   }
   var composs = document.getElementById('composs');
   composs.setAttribute('class', 'composs');
