@@ -2,7 +2,759 @@
 @import "tab2.css";
 @import "tab3.css";
 
-@media (max-width: 1919px) {/*1871px <= edge chrome => 1919px*/
+@media (max-width: 2400px) {/*original => 1919px*/
+    @keyframes tab1 {
+        0% {
+            left: 0;
+            opacity: 0.0;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            left: -20vw;
+            opacity: 1.5;
+        }
+    }
+    
+    @keyframes tab2 {
+        0% {
+            top: -10vh;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            top: 0;
+        }
+    }
+    
+    @keyframes tab3 {
+        0% {
+            left: -1vw;
+            opacity: 0.0;
+        }
+    
+        /*80% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            left: 20vw;
+            opacity: 1.5;
+        }
+    }    
+    @keyframes move3 {
+        0% {
+            opacity: 0.0;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            opacity: 1.5;
+            top: 19vh;
+            left: 11vw;
+            font-size: 20px;
+        }
+    }    
+    @keyframes move2 {
+        0% {
+            opacity: 0.0;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            opacity: 1.5;
+            top: 14vh;
+            left: 11vw;
+            font-size: 20px;
+        }
+    }    
+    @keyframes move1 {
+        0% {
+            opacity: 0.0;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            opacity: 1.5;
+            top: 10vh;
+            left: 11vw;
+            font-size: 20px;
+        }
+    }    
+        body {
+            background-color: black;
+        }
+        
+        .main {
+            position: absolute;
+            margin: -8px;
+            width: 98.4vw;
+            height: 98.4vw;
+        }
+        
+        .main-content {
+            color: white;
+        }
+        .main-tabBar-tab1 {
+            position: relative;
+            left: -20vw;
+            margin: -8px;
+            width: 10vw;
+            height: auto;
+            font-size: 100%;
+            background-color: white;
+            color: black;
+            border-color: white;
+            border-width: 1vw;
+            text-underline-position: below;
+            text-decoration-line: underline;
+            text-decoration-color: white;
+        }
+        
+        .main-tabBar-tab1-animation {
+            animation: tab1 2s ease-in-out forwards;
+        }
+        #main-tabBar-tab2 {
+            position: relative;
+            margin: -8px;
+            width: 10vw;
+            height: auto;
+            font-size: 100%;
+            color: black;
+            border-color: white;
+            border-width: 1vw;
+            text-underline-position: below;
+            text-decoration-line: underline;
+            text-decoration-color: white;
+        }
+        
+        .main-tabBar-tab2-animation {
+            animation: tab2 2s ease-in-out forwards;
+        }
+        .main-tabBar-tab3 {
+            position: relative;
+            left: 20vw;
+            margin: -8px;
+            width: 10vw;
+            height: auto;
+            font-size: 100%;
+            background-color: white;
+            color: black;
+            border-color: white;
+            border-width: 1vw;
+            text-underline-position: below;
+            text-decoration-line: underline;
+            text-decoration-color: white;
+        }
+        
+        .main-tabBar-tab3-animation {
+            animation: tab3 2s ease-in-out forwards;
+        }
+        .main-tabBar {
+            position: relative;
+            margin: 8px;
+            border-style: solid;
+            border-color: white;
+            border-width: 1px;
+            display: flex;
+            justify-content: center;
+            width: 98.4vw;
+            height: auto;
+        }
+        
+        .main-tabBar-list {
+            display:flex;
+            width: 5vw;
+            position: relative;
+        }
+        
+        
+        #main-tabBar-tab-select {
+            background-color: black;
+            color: white;
+        }
+}
+
+@media (max-width: 1200px) {/*original => 1919px*/
+    @keyframes tab1 {
+        0% {
+            left: 0;
+            opacity: 0.0;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            left: -20vw;
+            opacity: 1.5;
+        }
+    }
+    
+    @keyframes tab2 {
+        0% {
+            top: -10vh;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            top: 0;
+        }
+    }
+    
+    @keyframes tab3 {
+        0% {
+            left: -1vw;
+            opacity: 0.0;
+        }
+    
+        /*80% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            left: 20vw;
+            opacity: 1.5;
+        }
+    }    
+    @keyframes move3 {
+        0% {
+            opacity: 0.0;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            opacity: 1.5;
+            top: 19vh;
+            left: 11vw;
+            font-size: 20px;
+        }
+    }    
+    @keyframes move2 {
+        0% {
+            opacity: 0.0;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            opacity: 1.5;
+            top: 14vh;
+            left: 11vw;
+            font-size: 20px;
+        }
+    }    
+    @keyframes move1 {
+        0% {
+            opacity: 0.0;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            opacity: 1.5;
+            top: 10vh;
+            left: 11vw;
+            font-size: 20px;
+        }
+    }    
+        body {
+            background-color: black;
+        }
+        
+        .main {
+            position: absolute;
+            margin: -8px;
+            width: 98.4vw;
+            height: 98.4vw;
+        }
+        
+        .main-content {
+            color: white;
+        }
+        .main-tabBar-tab1 {
+            position: relative;
+            left: -20vw;
+            margin: -8px;
+            width: 10vw;
+            height: auto;
+            font-size: 100%;
+            background-color: white;
+            color: black;
+            border-color: white;
+            border-width: 1vw;
+            text-underline-position: below;
+            text-decoration-line: underline;
+            text-decoration-color: white;
+        }
+        
+        .main-tabBar-tab1-animation {
+            animation: tab1 2s ease-in-out forwards;
+        }
+        #main-tabBar-tab2 {
+            position: relative;
+            margin: -8px;
+            width: 10vw;
+            height: auto;
+            font-size: 100%;
+            color: black;
+            border-color: white;
+            border-width: 1vw;
+            text-underline-position: below;
+            text-decoration-line: underline;
+            text-decoration-color: white;
+        }
+        
+        .main-tabBar-tab2-animation {
+            animation: tab2 2s ease-in-out forwards;
+        }
+        .main-tabBar-tab3 {
+            position: relative;
+            left: 20vw;
+            margin: -8px;
+            width: 10vw;
+            height: auto;
+            font-size: 100%;
+            background-color: white;
+            color: black;
+            border-color: white;
+            border-width: 1vw;
+            text-underline-position: below;
+            text-decoration-line: underline;
+            text-decoration-color: white;
+        }
+        
+        .main-tabBar-tab3-animation {
+            animation: tab3 2s ease-in-out forwards;
+        }
+        .main-tabBar {
+            position: relative;
+            margin: 8px;
+            border-style: solid;
+            border-color: white;
+            border-width: 1px;
+            display: flex;
+            justify-content: center;
+            width: 98.4vw;
+            height: auto;
+        }
+        
+        .main-tabBar-list {
+            display:flex;
+            width: 5vw;
+            position: relative;
+        }
+        
+        
+        #main-tabBar-tab-select {
+            background-color: black;
+            color: white;
+        }
+}
+
+@media (max-width: 992px) {/*original => 1919px*/
+    @keyframes tab1 {
+        0% {
+            left: 0;
+            opacity: 0.0;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            left: -20vw;
+            opacity: 1.5;
+        }
+    }
+    
+    @keyframes tab2 {
+        0% {
+            top: -10vh;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            top: 0;
+        }
+    }
+    
+    @keyframes tab3 {
+        0% {
+            left: -1vw;
+            opacity: 0.0;
+        }
+    
+        /*80% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            left: 20vw;
+            opacity: 1.5;
+        }
+    }    
+    @keyframes move3 {
+        0% {
+            opacity: 0.0;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            opacity: 1.5;
+            top: 19vh;
+            left: 11vw;
+            font-size: 20px;
+        }
+    }    
+    @keyframes move2 {
+        0% {
+            opacity: 0.0;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            opacity: 1.5;
+            top: 14vh;
+            left: 11vw;
+            font-size: 20px;
+        }
+    }    
+    @keyframes move1 {
+        0% {
+            opacity: 0.0;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            opacity: 1.5;
+            top: 10vh;
+            left: 11vw;
+            font-size: 20px;
+        }
+    }    
+        body {
+            background-color: black;
+        }
+        
+        .main {
+            position: absolute;
+            margin: -8px;
+            width: 98.4vw;
+            height: 98.4vw;
+        }
+        
+        .main-content {
+            color: white;
+        }
+        .main-tabBar-tab1 {
+            position: relative;
+            left: -20vw;
+            margin: -8px;
+            width: 10vw;
+            height: auto;
+            font-size: 100%;
+            background-color: white;
+            color: black;
+            border-color: white;
+            border-width: 1vw;
+            text-underline-position: below;
+            text-decoration-line: underline;
+            text-decoration-color: white;
+        }
+        
+        .main-tabBar-tab1-animation {
+            animation: tab1 2s ease-in-out forwards;
+        }
+        #main-tabBar-tab2 {
+            position: relative;
+            margin: -8px;
+            width: 10vw;
+            height: auto;
+            font-size: 100%;
+            color: black;
+            border-color: white;
+            border-width: 1vw;
+            text-underline-position: below;
+            text-decoration-line: underline;
+            text-decoration-color: white;
+        }
+        
+        .main-tabBar-tab2-animation {
+            animation: tab2 2s ease-in-out forwards;
+        }
+        .main-tabBar-tab3 {
+            position: relative;
+            left: 20vw;
+            margin: -8px;
+            width: 10vw;
+            height: auto;
+            font-size: 100%;
+            background-color: white;
+            color: black;
+            border-color: white;
+            border-width: 1vw;
+            text-underline-position: below;
+            text-decoration-line: underline;
+            text-decoration-color: white;
+        }
+        
+        .main-tabBar-tab3-animation {
+            animation: tab3 2s ease-in-out forwards;
+        }
+        .main-tabBar {
+            position: relative;
+            margin: 8px;
+            border-style: solid;
+            border-color: white;
+            border-width: 1px;
+            display: flex;
+            justify-content: center;
+            width: 98.4vw;
+            height: auto;
+        }
+        
+        .main-tabBar-list {
+            display:flex;
+            width: 5vw;
+            position: relative;
+        }
+        
+        
+        #main-tabBar-tab-select {
+            background-color: black;
+            color: white;
+        }
+}
+
+@media (max-width: 768px) {/*original => 1919px*/
+    @keyframes tab1 {
+        0% {
+            left: 0;
+            opacity: 0.0;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            left: -20vw;
+            opacity: 1.5;
+        }
+    }
+    
+    @keyframes tab2 {
+        0% {
+            top: -10vh;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            top: 0;
+        }
+    }
+    
+    @keyframes tab3 {
+        0% {
+            left: -1vw;
+            opacity: 0.0;
+        }
+    
+        /*80% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            left: 20vw;
+            opacity: 1.5;
+        }
+    }    
+    @keyframes move3 {
+        0% {
+            opacity: 0.0;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            opacity: 1.5;
+            top: 19vh;
+            left: 11vw;
+            font-size: 20px;
+        }
+    }    
+    @keyframes move2 {
+        0% {
+            opacity: 0.0;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            opacity: 1.5;
+            top: 14vh;
+            left: 11vw;
+            font-size: 20px;
+        }
+    }    
+    @keyframes move1 {
+        0% {
+            opacity: 0.0;
+        }
+    
+        /*50% {
+            opacity: 1.5;
+        }*/
+    
+        100% {
+            opacity: 1.5;
+            top: 10vh;
+            left: 11vw;
+            font-size: 20px;
+        }
+    }    
+        body {
+            background-color: black;
+        }
+        
+        .main {
+            position: absolute;
+            margin: -8px;
+            width: 98.4vw;
+            height: 98.4vw;
+        }
+        
+        .main-content {
+            color: white;
+        }
+        .main-tabBar-tab1 {
+            position: relative;
+            left: -20vw;
+            margin: -8px;
+            width: 10vw;
+            height: auto;
+            font-size: 100%;
+            background-color: white;
+            color: black;
+            border-color: white;
+            border-width: 1vw;
+            text-underline-position: below;
+            text-decoration-line: underline;
+            text-decoration-color: white;
+        }
+        
+        .main-tabBar-tab1-animation {
+            animation: tab1 2s ease-in-out forwards;
+        }
+        #main-tabBar-tab2 {
+            position: relative;
+            margin: -8px;
+            width: 10vw;
+            height: auto;
+            font-size: 100%;
+            color: black;
+            border-color: white;
+            border-width: 1vw;
+            text-underline-position: below;
+            text-decoration-line: underline;
+            text-decoration-color: white;
+        }
+        
+        .main-tabBar-tab2-animation {
+            animation: tab2 2s ease-in-out forwards;
+        }
+        .main-tabBar-tab3 {
+            position: relative;
+            left: 20vw;
+            margin: -8px;
+            width: 10vw;
+            height: auto;
+            font-size: 100%;
+            background-color: white;
+            color: black;
+            border-color: white;
+            border-width: 1vw;
+            text-underline-position: below;
+            text-decoration-line: underline;
+            text-decoration-color: white;
+        }
+        
+        .main-tabBar-tab3-animation {
+            animation: tab3 2s ease-in-out forwards;
+        }
+        .main-tabBar {
+            position: relative;
+            margin: 8px;
+            border-style: solid;
+            border-color: white;
+            border-width: 1px;
+            display: flex;
+            justify-content: center;
+            width: 98.4vw;
+            height: auto;
+        }
+        
+        .main-tabBar-list {
+            display:flex;
+            width: 5vw;
+            position: relative;
+        }
+        
+        
+        #main-tabBar-tab-select {
+            background-color: black;
+            color: white;
+        }
+}
+
+@media (max-width: 600x) {/*original => 1919px*/
     @keyframes tab1 {
         0% {
             left: 0;
