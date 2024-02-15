@@ -435,9 +435,9 @@
     
         100% {
             opacity: 1.5;
-            top: 19vh;
+            top: 20.7vh;
             left: 11vw;
-            font-size: 20px;
+            font-size: 1vw;
         }
     }    
     @keyframes move2 {
@@ -451,9 +451,9 @@
     
         100% {
             opacity: 1.5;
-            top: 14vh;
-            left: 11vw;
-            font-size: 20px;
+            top: 15.8vh;
+            left: 12.8vw;
+            font-size: 1vw;
         }
     }    
     @keyframes move1 {
@@ -467,9 +467,9 @@
     
         100% {
             opacity: 1.5;
-            top: 10vh;
-            left: 11vw;
-            font-size: 20px;
+            top: 11.8vh;
+            left: 12.5vw;
+            font-size: 1vw;
         }
     }    
         body {
