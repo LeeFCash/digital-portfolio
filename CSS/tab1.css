@@ -520,7 +520,7 @@
         position: absolute;
         top: 16vh;
         left: 16vw;
-        font-size: 20px;
+        font-size: 1vw;
     }
     .main-content-aboutMeContent-text2-number1-animation {
         animation: info-Text1 7s ease-out forwards;
@@ -638,6 +638,7 @@
         position: absolute;
         top: 70vh;
         left: 90vw;
+        font-size: 1vw;
     }
     
     .main-content-aboutMeContent-text1-animation {
@@ -659,7 +660,7 @@
     }
     .main-content-aboutMeContent-text3-letter1 {
         position: absolute;
-        top: 21vh;
+        top: 18vh;
         left: 16vw;
         font-size: 20px;
     }
