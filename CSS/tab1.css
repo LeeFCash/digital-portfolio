@@ -1086,6 +1086,7 @@
         }
         100% {
             opacity: 1.5;
+            font-size: 1.5vw;
         }
     }
     @keyframes IMGresize {
