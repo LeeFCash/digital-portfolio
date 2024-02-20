@@ -1247,7 +1247,7 @@
     .main-content-aboutMeContent-text2-number1 {
         position: absolute;
         top: 16vh;
-        left: 16vw;
+        left: 18vw;
         font-size: 20px;
     }
     .main-content-aboutMeContent-text2-number1-animation {
@@ -1338,7 +1338,7 @@
         position: absolute;
         opacity: 1.5;
         top: 12vh;
-        left: 16vw;
+        left: 18vw;
         font-size: +20px;
     }
     .main-content-aboutMeContent-text1-letter1-animation {
@@ -1370,7 +1370,7 @@
     .main-content-aboutMeContent-text3-letter1 {
         position: absolute;
         top: 21vh;
-        left: 16vw;
+        left: 18vw;
         font-size: 20px;
     }
     
