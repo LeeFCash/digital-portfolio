@@ -594,7 +594,7 @@
     }
     .yourChannel {
         position: absolute;
-        top: 31vh;
+        top: 33.5vh;
         left: 57.6vw;
         width: 10vw;
         height: 2vh;
@@ -609,7 +609,7 @@
     .main-content-workSamples-toChannel {
         position: absolute;
         top: 56.3vh;
-        left: 10.3vw;
+        left: 11.3vw;
         width: 1.5vw;
         height: 3vh;
         background-color: white;
