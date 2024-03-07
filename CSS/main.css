@@ -755,7 +755,7 @@
         }
 }
 
-@media (max-width: 600x) {/*original => 1919px*/
+@media (max-width: 600px) {
     @keyframes tab1 {
         0% {
             left: 0;
@@ -769,6 +769,7 @@
         100% {
             left: -20vw;
             opacity: 1.5;
+            font-size: 2vw;
         }
     }
     
@@ -783,6 +784,7 @@
     
         100% {
             top: 0;
+            font-size: 1.6vw;
         }
     }
     
@@ -799,6 +801,7 @@
         100% {
             left: 20vw;
             opacity: 1.5;
+            font-size: 2vw;
         }
     }    
     @keyframes move3 {
@@ -813,7 +816,7 @@
         100% {
             opacity: 1.5;
             top: 19vh;
-            left: 11vw;
+            left: 41vw;
             font-size: 20px;
         }
     }    
@@ -829,7 +832,7 @@
         100% {
             opacity: 1.5;
             top: 14vh;
-            left: 11vw;
+            left: 41vw;
             font-size: 20px;
         }
     }    
@@ -845,7 +848,7 @@
         100% {
             opacity: 1.5;
             top: 10vh;
-            left: 11vw;
+            left: 41vw;
             font-size: 20px;
         }
     }    

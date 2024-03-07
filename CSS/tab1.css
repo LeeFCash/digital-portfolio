@@ -1446,7 +1446,7 @@
     @keyframes IMGresize {
         0% {
             /*transform: scaleX(-1);*/
-            transform: translate(-20vw);
+            transform: translate(-100vw);
         }
     
         60% {
@@ -1454,7 +1454,10 @@
         }
     
         100% {
-            border-radius: 99%;
+            border-radius: 99vw;
+            width: 20vw;
+            top: 9vh;
+            left: 15vw;
         }
     }    
     @keyframes textComeOut3 {
@@ -1476,9 +1479,9 @@
         
         100%{
             position: absolute;
-            top: 58vh;
-            left: 75vw;
-            font-size: 1vw;
+            top: 81vh;
+            left: 50vw;
+            font-size: 2vw;
             color: white;
             }
     } 
@@ -1501,9 +1504,9 @@
         
         100%{
             position: absolute;
-            top: 56vh;
-            left: 50vw;
-            font-size: 1vw;
+            top: 128vh;
+            left: 0vw;
+            font-size: 2.5vw;
             color: white;
             }
     }    
@@ -1524,9 +1527,9 @@
         
         100%{
             position: absolute;
-            top: 77vh;
-            left: 25vw;
-            font-size: 1vw;
+            top: 82vh;
+            left: 0vw;
+            font-size: 2.4vw;
             color: white;
             }
     }    
@@ -1540,9 +1543,10 @@
     
         100% {
             position: absolute;
-            left: 75%;
-            width: 24.7%;
-            height: 24.7%;
+            left: 50vw;
+            top: 31vh;
+            width: 50vw;
+            height: 50vh;
             }
     }    
     @keyframes imgSize2 {
@@ -1555,9 +1559,10 @@
     
         100% {
             position: absolute;
-            left: 51%;
-            width: 23%;
-            height: 23%;
+            left: 0vw;
+            top: 88vh;
+            width: 100vw;
+            height: 40vh;
             }
     }    
     @keyframes imgSize1 {
@@ -1570,9 +1575,10 @@
     
         100% {
             position: absolute;
-            left: 25%;
-            width: 25%;
-            height: 35%;
+            left: 0%;
+            top: 31vh;
+            width: 50vw;
+            height: 50vh;
             }
     }    
     @keyframes info-Text1 {
@@ -1618,74 +1624,92 @@
     }
     .main-content-aboutMeContent-text3-letter0-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 1s ease-out forwards;
     }
     .main-content-aboutMeContent-text3-letter1-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 2s ease-out forwards;
     }
     .main-content-aboutMeContent-text3-letter2-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 3s ease-out forwards;
     }
     .main-content-aboutMeContent-text3-letter3-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 4s ease-out forwards;
     }
     .main-content-aboutMeContent-text3-letter4-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 5s ease-out forwards;
     }
     .main-content-aboutMeContent-text3-letter5-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 6s ease-out forwards;
     }
     .main-content-aboutMeContent-text3-letter6-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 7s ease-out forwards;
     }
     .main-content-aboutMeContent-text3-letter7-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 8s ease-out forwards;
     }
     .main-content-aboutMeContent-text3-letter8-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 9s ease-out forwards;
     }
     .main-content-aboutMeContent-text3-letter9-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 10s ease-out forwards;
     }
     .main-content-aboutMeContent-text3-letter10-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 11s ease-out forwards;
     }
     .main-content-aboutMeContent-text3-letter11-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 12s ease-out forwards;
     }
     .main-content-aboutMeContent-text3-letter12-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 13s ease-out forwards;
     }
     .main-content-aboutMeContent-text3-letter13-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 14s ease-out forwards;
     }
     .main-content-aboutMeContent-text3-letter14-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 15s ease-out forwards;
     }    
     .main-content-aboutMeContent-text3-letter15-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 16s ease-out forwards;
     }
     .main-content-aboutMeContent-text3-letter16-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 17s ease-out forwards;
     }
     .main-content-aboutMeContent-text3-letter17-opacity0 {
         opacity: 0.0;
+        font-size: 3vw;
         animation: letterSee 18s ease-out forwards;
     }
     #main-content-aboutMeContent-text1-letter1 {
@@ -1765,7 +1789,7 @@
         position: absolute;
         top: 35vh;
         left: 51vw;
-        width: 22vw;
+        width: 100vw;
         font-size: 66%;
         animation: textComeOut2 8s ease-in-out forwards;
     }
@@ -1785,5 +1809,18 @@
     
     .main-content-aboutMeContent-img1-animation {
         animation: IMGresize 5s ease-in-out forwards;
-    }    
+    }
+    #main-content-aboutMeContent-text1-letter1 {
+        position: absolute;
+        left: 56vw;
+    }
+    #main-content-aboutMeContent-text2-number1 {
+        position: absolute;
+        left: 56vw;
+    }
+    #main-content-aboutMeContent-text3-letter2 {
+        position: absolute;
+        top: 31vw;
+        left: 56vw;
+    }
 }
