@@ -649,10 +649,10 @@
         }
         100%{
             position: absolute;
-            top: 11vh;
+            top: 9vh;
             left: 0vw;
             height: 89vh;
-            width: 68.9vw;
+            width: 100vw;
             }
     }
     @keyframes textRight {
@@ -674,7 +674,7 @@
         }
         100%{
             position: absolute;
-            top: 23vh;
+            top: 100vh;
             left: 69vw;
             min-width: 0;
             width: 30vw;
@@ -682,57 +682,57 @@
     } 
     .main-content-workSamples-b1 {
         position: absolute;
-        top: 31vh;
-        left: 23.8vw;
-        width: 28.1vw;
+        top: 29vh;
+        left: 33.8vw;
+        width: 42.1vw;
         height: 7.5vh;
     }
     .main-content-workSamples-b2 {
         position: absolute;
-        top: 39.4vh;
-        left: 23.8vw;
-        width: 28.1vw;
+        top: 37.4vh;
+        left: 33.8vw;
+        width: 42.1vw;
         height: 7.5vh;
     }
     .main-content-workSamples-b3 {
         position: absolute;
-        top: 48.6vh;
-        left: 23.8vw;
-        width: 28.1vw;
+        top: 46.6vh;
+        left: 33.8vw;
+        width: 42.1vw;
         height: 7.5vh;
     }
     .main-content-workSamples-b4 {
         position: absolute;
-        top: 57.3vh;
-        left: 23.8vw;
-        width: 28.1vw;
+        top: 55.1vh;
+        left: 33.8vw;
+        width: 42.1vw;
         height: 7.5vh;
     }
     .main-content-workSamples-b5 {
         position: absolute;
-        top: 65.9vh;
-        left: 23.8vw;
-        width: 28.1vw;
+        top: 63.9vh;
+        left: 33.8vw;
+        width: 42.1vw;
         height: 7.5vh;
     }
     .main-content-workSamples-b6 {
         position: absolute;
-        top: 74.6vh;
-        left: 23.8vw;
-        width: 28.1vw;
+        top: 72.6vh;
+        left: 33.8vw;
+        width: 42.1vw;
         height: 7.5vh;
     }
     .main-content-workSamples-b7 {
         position: absolute;
-        top: 83.4vh;
-        left: 23.8vw;
-        width: 28.1vw;
+        top: 81.4vh;
+        left: 33.8vw;
+        width: 42.1vw;
         height: 7.5vh;
     }
     .main-content-workSamples-bCh1 {
         position: absolute;
-        top: 20.9vh;
-        left: 66vw;
+        top: 18.9vh;
+        left: 94.9vw;
         width: 1.3vw;
         height: 2.7vh;
     }
@@ -745,7 +745,7 @@
     }
     .main-content-workSamples-backArrow {
         position: absolute;
-        top: 14.9vh;
+        top: 12.9vh;
         left: 0.3vw;
         width: 1vw;
         height: 1.2vh;
@@ -766,8 +766,8 @@
     }
     .main-content-workSamples-toChannel {
         position: absolute;
-        top: 56.3vh;
-        left: 10.3vw;
+        top: 54.3vh;
+        left: 14.3vw;
         width: 1.5vw;
         height: 3vh;
         background-color: white;
