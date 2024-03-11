@@ -222,10 +222,12 @@ function aboutMeNAE() {
         mainContentWorkSamplesB7.classList.toggle('main-content-workSamples-b7');
         mainContentWorkSamplesImg.setAttribute('src', './IMG/myCh.png');
         playList.classList.toggle('main-content-workSamples-playList');
-        toChannel.style.top = '26vh';
+        toChannel.classList.remove('toChannel');
+        /*toChannel.style.top = '26vh';
         toChannel.style.left = '15vw';
         toChannel.style.width = '5.1vw';
-        toChannel.style.height = '11vh';
+        toChannel.style.height = '11vh';*/
+        toChannel.classList.toggle('toChannel2');
     });
     playList.addEventListener('click', function() {
         mainContentWorkSamplesImg.setAttribute('src', './IMG/myBlog.png');
@@ -237,10 +239,12 @@ function aboutMeNAE() {
         mainContentWorkSamplesB6.classList.toggle('main-content-workSamples-b6');
         mainContentWorkSamplesB7.classList.toggle('main-content-workSamples-b7');
         playList.classList.toggle('main-content-workSamples-playList');
-        toChannel.style.top = '56.3vh';
+        /*toChannel.style.top = '56.3vh';
         toChannel.style.left = '10.3vw';
         toChannel.style.width = '1.5vw';
-        toChannel.style.height = '3vh';
+        toChannel.style.height = '3vh';*/
+        toChannel.classList.remove('toChannel2');
+        toChannel.classList.add('toChannel');
     });
     var toChannel = document.getElementById('main-content-workSamples-toChannel');
     toChannel.addEventListener('click', function() {
