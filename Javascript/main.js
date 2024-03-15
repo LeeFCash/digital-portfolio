@@ -275,7 +275,7 @@ function aboutMeNAE() {
     }
   for(var i = 0; i <= text2.length - 1; i++) {
     textDiv2.style.color = 'white';
-    textDiv2.innerHTML += '<span class="textDiv' + i + '">' + text2[i] + '</span>';
+    textDiv2.innerHTML += '<span class="textDiv' + i + '" >' + text2[i] + '</span>';
   }
   var composs = document.getElementById('composs');
   composs.setAttribute('class', 'composs');
