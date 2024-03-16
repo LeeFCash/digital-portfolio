@@ -767,7 +767,7 @@
         
         100%{
             position: absolute;
-            top: 38vh;
+            top: 40vh;
             left: 75vw;
             font-size: 1vw;
             color: white;
@@ -792,7 +792,7 @@
         
         100%{
             position: absolute;
-            top: 36vh;
+            top: 38vh;
             left: 50vw;
             font-size: 1vw;
             color: white;
@@ -815,7 +815,7 @@
         
         100%{
             position: absolute;
-            top: 50vh;
+            top: 52vh;
             left: 25vw;
             font-size: 1vw;
             color: white;
@@ -1122,7 +1122,7 @@
         
         100%{
             position: absolute;
-            top: 32vh;
+            top: 34vh;
             left: 75vw;
             font-size: 1vw;
             color: white;
@@ -1147,7 +1147,7 @@
         
         100%{
             position: absolute;
-            top: 31vh;
+            top: 33vh;
             left: 50vw;
             font-size: 1vw;
             color: white;
@@ -1170,7 +1170,7 @@
         
         100%{
             position: absolute;
-            top: 41vh;
+            top: 43vh;
             left: 25vw;
             font-size: 1vw;
             color: white;
@@ -1820,7 +1820,7 @@
     }
     #main-content-aboutMeContent-text3-letter2 {
         position: absolute;
-        top: 31vw;
+        top: 29.7vw;
         left: 56vw;
     }
 }
