@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: white;
+}
+nav {
+    display: block;
+    border-color: white;
+    border-style: solid;
+    border-width: 1%;
+}
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li button {
+    border-radius: 50px;
+    /*border-width: 50px;*/
+    border-color: blue;
+    font-size: 20px;
+    align-self: center;
+}
+.beforeTabinfo {
+    font-size: 18px;
+}
