@@ -24,7 +24,24 @@
     display: flex;
     flex-wrap: wrap;
 }
-@media screen and (max-width: 416px) {
+.Pinfo {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.PinfoC1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 100%;
+}
+.PinfoC1Space {
+    margin-left: 3%;
+}
+@media screen and (max-width: 1051px) {
+    .PinfoC1 {
+        font-size: 75%;
+    }
+}
+@media screen and (max-width: 550px) {
     .main1 {
         display: block;
     }
