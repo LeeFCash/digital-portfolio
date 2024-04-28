@@ -9,9 +9,8 @@
     justify-content: center;
 }
 .mainC {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
     height: 100%;
     justify-items: center;
@@ -44,4 +43,26 @@
 }
 .mainC3 {
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mainC3IMG {
+    position: relative;
+    bottom: 23%;
+    width: 100%;
+}
+.mainC3P {
+    position: relative;
+    bottom: 13%;
+}
+@media screen and (max-width: 922px) {
+    .mainC {
+        grid-template-columns: 1fr 1fr;
+    }
+    .mainC3IMG {
+        bottom: 0%;
+    }
+    .mainC3P {
+        bottom: 0%;
+    }
 }
